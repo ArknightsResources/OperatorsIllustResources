@@ -11,7 +11,8 @@
     <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
     <Copyright>Copyright (c) 2022 Baka632</Copyright>
     <PackageProjectUrl>https://github.com/Baka632/ArknightsResources</PackageProjectUrl>
-    <RepositoryUrl>https://dev.azure.com/LiveBakaStudio/_git/ArknightsResources?path=/ArknightsResources.Operators</RepositoryUrl>
+    <RepositoryUrl>https://dev.azure.com/LiveBakaStudio/ArknightsResources/_git/ArknightsResources?path=/ArknightsResources.Operators.Resources</RepositoryUrl>
+    <PackageTags>Arknights</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
