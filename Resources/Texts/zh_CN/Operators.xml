@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OperatorsList xmlns="http://schema.livestudio.com/Operators.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Operator Name="阿米娅" Gender="Female" Star="5" ImageCodename="amiya">
+    <Birthday Month="12" Day="23" />
+    <Information>
+      <Info Illustrator="唯@W" ChineseCV="陶典" ForeignCV="黑泽朋世" OperatorClass="Caster" Type="Elite0" />
+      <Info Illustrator="唯@W" ChineseCV="陶典" ForeignCV="黑泽朋世" OperatorClass="Caster" Type="Elite1" />
+      <Info Illustrator="唯@W" ChineseCV="陶典" ForeignCV="黑泽朋世" OperatorClass="Caster" Type="Elite2" />
+      <Info Illustrator="唯@W" ChineseCV="陶典" ForeignCV="黑泽朋世" OperatorClass="Caster" Type="Skin">
+        <SkinInfo Name="忒斯特收藏-报童" Description="LIMITED EDITION&#x000A;忒斯特™收藏系列/报童。限定区域供应。经典款式复刻，采用绝佳材质，附加特别缝纫细节。附带特别设计的开信刀。" ImageCodename="winter" />
+      </Info>
+      <Info Illustrator="唯@W" ChineseCV="陶典" ForeignCV="黑泽朋世" OperatorClass="Caster" Type="Skin">
+        <SkinInfo Name="忒斯特收藏-见习联结者" Description="忒斯特收藏系列/见习联结者。阿米娅在罗德岛餐厅打工时的穿着。蓬松外套很防寒，也能装进一只企鹅大小的东西。" ImageCodename="epoque" />
+      </Info>
+      <Info Illustrator="唯@W" ChineseCV="陶典" ForeignCV="黑泽朋世" OperatorClass="Caster" Type="Skin">
+        <SkinInfo Name="忒斯特收藏-播种者" Description="忒斯特收藏系列/播种者。宽松舒适的出游配搭，独家附赠小型登山包与一个育苗套装。设计师有一个小小的愿望，她希望大家能够帮忙实现。" ImageCodename="test" />
+      </Info>
+      <Info Illustrator="唯@W" ChineseCV="陶典" ForeignCV="黑泽朋世" OperatorClass="Guard" Type="Promotion" />
+    </Information>
+    <Profiles>
+      <Profile Type="BasicProfile">【代号】阿米娅
+【性别】女
+【战斗经验】三年
+【出身地】雷姆必拓
+【生日】12月23日
+【种族】卡特斯/奇美拉
+【身高】142cm
+【矿石病感染情况】
+ 体表有源石结晶分布，参照医学检测报告，确认为感染者。</Profile>
+      <Profile Type="ObjectiveProfile">罗德岛的公开领袖，在内部拥有最高执行权。虽然，从外表上看起来仅仅是个不成熟的少女，实际上，她却是深受大家信任的合格的领袖。
+现在，阿米娅正带领着罗德岛，为了感染者的未来，为了让这片大地挣脱矿石病的阴霾而不懈努力。</Profile>
+      <Profile Type="ClinicalAnalysis">造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。
+【体细胞与源石融合率】19%
+ ■■■■■■■■■■■■■■■■■■■■■■■■■
+ ■■■■■■■■■■■■■■■■■■■■■■■■■
+
+【血液源石结晶密度】0.27u/L
+ ■■■■■■■■■■■■■■■■■■■■■■■■■
+ ■■■■■■■■■■■■■■■■■■■■■■■■■</Profile>
+      <Profile Type="Promotion1">史载，萨卡兹君王奎隆的佩剑，长度约在0.9到1.2米之间，宽约5厘米，材质不明，通体呈黑色，剑身铭刻萨卡兹传统文字，释作“争斗在此止歇”。
+奎隆继位后整顿卡兹戴尔，深感西方荼害萨卡兹已久，遂率领部分萨卡兹部族向东方迁移，后下落不明。
+传说，奎隆有令其敌人不战而退之威。有记述称奎隆之敌在与奎隆作战时仿佛会遭受数倍于武器重量之重压，在物理与意志上同遭奎隆捶打，如若侥幸不死，也多成残废。但也有人称奎隆为仁爱君主，任何遭其佩剑划破的创口都不会流血，如若退后，则能苟全性命。
+不过，部分古籍宣称，在奎隆继位前，其佩剑就已于战争中毁坏，日后奎隆所持武器，只是他以法术塑造出的脆弱外形。这与奎隆此后在萨卡兹冲突中的表现不符，且少有人能解释在此前提下为何奎隆没有重铸爱剑。我推测，奎隆的确有以法术塑形武器之力，其理论基点同样根植于王位，只是奎隆碍于前游侠之身份而甚少使用此类法术。
+当然，文献记载，奎隆继位后，其佩剑便时常散发青色幽光，如同焰息。由于奎隆性格激烈，此剑日后也被称作“青色怒火”。
+萨卡兹的大多传说都随卡兹戴尔不断遭毁而佚失，这对历史考察造成很大困难。近日不断有萨卡兹学者呼吁重塑萨卡兹的历史，但研究中为宣扬萨卡兹种
+之崇高性而向研究材料添油加醋之行为，实为污染。
+
+——Logos</Profile>
+      <Profile Type="Unknown">？？？？？？</Profile>
+    </Profiles>
+  </Operator>
+
+  <Operator Name="锡兰" Gender="Female" Star="5" ImageCodename="ceylon">
+    <Birthday Month="9" Day="25" />
+    <Information>
+      <Info Illustrator="Skade" ForeignCV="荒川美穗" OperatorClass="Medic" Type="Elite0" />
+      <Info Illustrator="Skade" ForeignCV="荒川美穗" OperatorClass="Medic" Type="Elite1" />
+      <Info Illustrator="Skade" ForeignCV="荒川美穗" OperatorClass="Medic" Type="Elite2" />
+    </Information>
+    <Profiles>
+      <Profile Type="BasicProfile">【代号】锡兰
+【性别】女
+【战斗经验】没有战斗经验
+【出身地】汐斯塔（独立城邦）
+【生日】9月25日
+【种族】黎博利
+【身高】162cm
+【矿石病感染情况】
+参照医学检测报告，确认为非感染者。</Profile>
+      <Profile Type="ObjectiveProfile">维多利亚国立大学源石研究专业毕业生，现作为辅助研究员在凯尔希医生的研究室内工作。
+在水系法术上颇有造诣，能够在战场上为队友提供可靠的医疗支援。</Profile>
+      <Profile Type="ClinicalAnalysis">造影检测结果显示，该干员体内脏器轮廓清晰，未见异常阴影，循环系统内源石颗粒检测未见异常，无矿石病感染迹象，现阶段可确认为非矿石病感染者。
+
+【体细胞与源石融合率】0%
+虽然因为职业原因需要长期接触源石，不过干员本人在预防措施方面做得十分充足，因此完全没有感染迹象。
+
+【血液源石结晶密度】0.21u/L
+数值相对正常数值来说偏高，不过对于源石研究者来说，并不是一个值得惊讶的数值。</Profile>
+      <Profile Type="File1">有些盛气凌人的大小姐。
+之所以用“大小姐”而不是“研究者”去概括，是因为她“大小姐”的印象过于强烈，以至于大部分干员即使知道她的工作内容，在提到她时也依然会说“啊，那个大小姐啊。”
+当然，虽然会用大小姐去揶揄，没有人真的讨厌这位大小姐。因为在大部分时候，她总是对的，而如果她错了，她从不会吝啬“对不起”。</Profile>
+      <Profile Type="File2">锡兰小姐的故乡，汐斯塔市，是一座相当少见的独立城市。
+它的少见，不仅仅在于，它是一座非移动城市，也在于，它是一座独立城市，更在于，在如今还处于高速发展中。
+事实上，在泰拉之上，虽然有数个历史悠久的国家，但国家并不是最普遍的概念，独立城邦才是。
+应当说，现代语境下的，国家这个概念所指代的社会集体，在过去，就是指独立城市。有几个国家的前身，就是独立城市的集合。并且，即使到了今天，一些名义上属于某个国家的移动城市，依然在不同程度上保留了单单属于本城市而非本国的习俗。
+然而，必须承认的是，虽然有些顽固的老人可能不愿承认，但独立城市的概念已经逐渐落伍了。因为国家这个概念实在是过于强大。
+如今，泰拉上虽然还有相当数量的独立城市，但它们的领导者已经认识到，单独的城市是无法抗衡国家的，近年，已经有不少独立城市主动向邻近的国家投诚。
+不过，汐斯塔市的崭露头角，或许能为他们带去新的方向。</Profile>
+      <Profile Type="File3">为了方便理解，锡兰小姐在介绍自己时，并没有提及自己确切的学科，事实上，源石研究这门学科在如今，无论是实用方向还是理论方向，都拥有数量繁多的子类，而锡兰小姐专攻的，是《源石应用发展史研究》。
+在近代学术未能成就具体学科之前，许多有关源石的珍贵研究史料都没能得到很好的保存。事实上，搜集过去仅存的史料中提示的线索以推导出源石各学派的发展路径，同样也是近代源石研究的重要组成部分。
+虽然，在科学技术得到发展的今天，对史料的研究逐渐从发现理论变成了验证理论。当然，记录历史本身，对于一个文明的意义自然是不言而喻的。
+当然，锡兰小姐虽然才从大学毕业，但是她本身的知识储备以及对于源石研究的热情是令人赞叹的，完全可以想见她在学校中付出了怎样的努力。这样优秀人才的加入，对于罗德岛来说，不得不说是一个意外之喜。</Profile>
+      <Profile Type="File4">之所以在锡兰小姐的档案中没有过多提及黑小姐的存在，与黑小姐的档案中没有怎么提及锡兰小姐的原因是一样的。
+这个原因十分简单，那就是——没有必要。用文字去描述她们感情的深厚程度是一件十分没有意义的事情。
+不过，或许有一点是值得记录的，那就是，锡兰小姐也好，黑小姐也好，她们确实将彼此视为最重要的存在，但是，她们的世界中，并不是只有对方。
+锡兰小姐会与其他研究员一同进餐，一起做研究，争论某个理论直到半夜。黑小姐也会单独出一些任务，和一些佣兵出身的干员一起喝酒，或者和他们在演习场里“厮杀”。
+她们都有着自己的生活，在进入罗德岛后，她们的世界也将变得更为广阔，但可以预见的是，她们会习惯这样的生活，并依然将对方视为自己重要的存在。
+这才应当是所谓“深厚的感情”中，深厚二字应该有的形态吧。</Profile>
+    </Profiles>
+  </Operator>
+
+  <Operator Name="安洁莉娜" Gender="Female" Star="6" ImageCodename="aglina">
+    <Birthday Month="5" Day="14" />
+    <Information>
+      <Info ForeignCV="大桥彩香" Illustrator="LM7" OperatorClass="Supporter" Type="Elite0" />
+      <Info ForeignCV="大桥彩香" Illustrator="LM7" OperatorClass="Supporter" Type="Elite1" />
+      <Info ForeignCV="大桥彩香" Illustrator="LM7" OperatorClass="Supporter" Type="Elite2" />
+      <Info ForeignCV="大桥彩香" Illustrator="LM7" OperatorClass="Supporter" Type="Skin">
+        <SkinInfo Name="斗争血脉-质素访客" Description="“上尉，这里交给我。你有你该做的事。”" ImageCodename="boc" />
+      </Info>
+      <Info ForeignCV="大桥彩香" Illustrator="LM7" OperatorClass="Supporter" Type="Skin">
+        <SkinInfo Name="珊瑚海岸-夏卉 FA017" Description="这些糕点一个人根本吃不完，怎么办呀~" ImageCodename="summer" />
+      </Info>
+    </Information>
+    <Profiles>
+      <Profile Type="BasicProfile">【代号】安洁莉娜
+【性别】女
+【战斗经验】没有战斗经验
+【出身地】叙拉古
+【生日】5月14日
+【种族】沃尔珀
+【身高】162cm
+【矿石病感染情况】
+体表有源石结晶分布，确认为感染者。</Profile>
+      <Profile Type="ObjectiveProfile">安洁莉娜，本名安心院安洁莉娜。于叙拉古从事情报递送、货物运输等公开活动，推测身份：信使。
+现作为实习术师干员，为罗德岛提供后勤保障、战场辅助与战术协同等服务。</Profile>
+      <Profile Type="ClinicalAnalysis">造影检测结果显示，该干员体内脏器轮廓模糊，可见异常阴影，循环系统内源石颗粒检测异常，有矿石病感染迹象，现阶段可确认为是矿石病感染者。
+
+【体细胞与源石融合率】5%
+以这个势头发展下去，感染将匀速蔓延扩散。需要保持定期观察与控制。
+
+【血液源石结晶密度】0.31u/L
+包括体表的源石结晶在内，干员安洁莉娜有着非常明显的感染者症状，虽然说不上有多严重，但安洁莉娜小姐可也千万不能轻视病况呀。
+
+——医疗干员华法琳</Profile>
+      <Profile Type="File1">虽然安洁莉娜她自己没意识到，不过她可是有着相当独特的法术天赋的哦！好像，是能让各种物品，变重或者是变轻的样子……如果能得到进一步的引导和开发的话，我觉得，总有一天她会变得很了不起的！</Profile>
+      <Profile Type="File2">刚成为信使不久的少女。安洁莉娜就像其他的高中生一样，对未来充满希望，但也花了很多时间在学业与打扮上。
+喜欢小饰品和流行小说，意外的喜欢稍显复古的音乐，安洁莉娜的人生本应平常而快乐。
+
+而当罗德岛寻访她时，安洁莉娜却正穿梭在城市的黑夜中，于大楼间轻巧地滑翔而过。</Profile>
+      <Profile Type="File3">这片大地是不公的。
+意外成为感染者的安洁莉娜，悄悄地从自己的生活中消失了。
+没有告别，没有徘徊，安洁莉娜离开了家庭，默默地告别了学校中的朋友和自己热爱的故乡。
+然而，即便已经知晓了感染者的结局，安洁莉娜却并不甘心。
+每个夜晚，她奔跑着，跳跃着，在建筑间穿梭着，操纵着还不那么熟练的法术，将货物从一个秘密的地方运送到另一个秘密的地方。
+作为信使，作为感染者，也作为一个普通的高中生，安洁莉娜正在努力地生活下去，无论未来会变成什么模样。</Profile>
+      <Profile Type="File4">在遇见罗德岛与博士之前，安洁莉娜将这些秘密都藏在自己心里。
+直到罗德岛发掘了安洁莉娜，她才看见了另一种属于感染者的生活。而她，也给罗德岛带来了不同的色彩。如今成为了罗德岛干员的她，兴许也能重新找回自己作为一个高中生应有的生活。
+……大概。
+安洁莉娜选择的道路，究竟会通向哪里？
+可能连她自己都没法想象吧。</Profile>
+    </Profiles>
+  </Operator>
+
+  <Operator Name="蓝毒" Gender="Female" Star="5" ImageCodename="bluep">
+    <Birthday Month="1" Day="18" />
+    <Information>
+      <Info ForeignCV="种崎敦美" Illustrator="LLC" OperatorClass="Sniper" Type="Elite0" />
+    </Information>
+    <Profiles>
+      <Profile Type="BasicProfile">【代号】蓝毒
+【性别】女
+【战斗经验】没有战斗经验
+【出身】未公开
+【生日】1月18日
+【种族】安努拉
+【身高】157cm
+【矿石病感染情况】
+参照医学检测报告，确认为非感染者。</Profile>
+    </Profiles>
+  </Operator>
+
+  <Operator Name="能天使" Gender="Female" Star="6" ImageCodename="angel">
+    <Birthday Month="12" Day="24" />
+    <Information>
+      <Info ForeignCV="石见舞菜香" Illustrator="幻象黑兔" OperatorClass="Sniper" Type="Elite0" />
+    </Information>
+    <Profiles>
+      <Profile Type="BasicProfile">【代号】能天使
+【性别】女
+【战斗经验】两年
+【出身】拉特兰
+【生日】12月24日
+【种族】萨科塔
+【身高】159cm
+【矿石病感染情况】
+参照医学检测报告，确认为非感染者。</Profile>
+    </Profiles>
+  </Operator>
+
+  <Operator Name="砾" Gender="Female" Star="4" ImageCodename="gravel">
+    <Birthday Month="1" Day="20" />
+    <Information>
+      <Info OperatorClass="Specialist" Type="Elite0" />
+    </Information>
+    <Profiles>
+      <Profile Type="BasicProfile">【代号】砾
+【性别】女
+【战斗经验】四年
+【出身地】卡西米尔
+【生日】1月20日
+【种族】札拉克
+【身高】156cm
+【矿石病感染情况】
+体表无源石结晶分布，且参照医学检测报告，确认为非感染者。</Profile>
+    </Profiles>
+  </Operator>
+
+  <Operator Name="白金" Gender="Female" Star="5" ImageCodename="platnm">
+    <Birthday Month="2" Day="12" />
+    <Information>
+      <Info OperatorClass="Sniper" Type="Elite0" />
+    </Information>
+    <Profiles>
+      <Profile Type="BasicProfile">【代号】白金
+【性别】女
+【战斗经验】六年
+【出身地】卡西米尔
+【生日】2月13日
+【种族】库兰塔
+【身高】160cm
+【矿石病感染情况】
+参照医学检测报告，确认为非感染者。</Profile>
+    </Profiles>
+  </Operator>
+</OperatorsList>

@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Operators"
+    targetNamespace="http://schema.livestudio.com/Operators.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://schema.livestudio.com/Operators.xsd"
+    xmlns:mstns="http://schema.livestudio.com/Operators.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="OperatorsList" type="OperatorsList"/>
+
+  <xs:complexType name="OperatorsList">
+    <xs:sequence maxOccurs="unbounded">
+          <xs:element name="Operator" type="operator"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:complexType name="operator">
+    <xs:sequence maxOccurs="1">
+      <xs:element name="Birthday" type="birthday"/>
+      <xs:element name="Information" type="information"/>
+      <xs:element name="Profiles" type="profiles"/>
+    </xs:sequence>
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Gender" type="gender" use="required"/>
+    <xs:attribute name="Star" type="star" use="required"/>
+    <xs:attribute name="ImageCodename" type="xs:string" use="required"/>
+    </xs:complexType>
+
+  <xs:complexType name="information">
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element name="Info" type="info"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="profiles">
+    <xs:sequence maxOccurs="unbounded">
+      <xs:element name="Profile" type="operatorProfile"/>
+    </xs:sequence>
+  </xs:complexType>
+  
+  <xs:complexType name="skinInfo">
+    <xs:attribute name="Name" type="xs:string" use="required"/>
+    <xs:attribute name="Description" type="xs:string" use="required"/>
+    <xs:attribute name="ImageCodename" type="xs:string" use="required"/>
+  </xs:complexType>
+    
+  <xs:complexType name="info">
+    <xs:sequence minOccurs="0">
+      <xs:element name="SkinInfo" type="skinInfo"/>
+    </xs:sequence>
+    <xs:attribute name="OperatorClass" type="class" use="required"/>
+    <xs:attribute name="Type" type="operatorType" use="required"/>
+    <xs:attribute name="ForeignCV" type="xs:string" use="required"/>
+    <xs:attribute name="ChineseCV" type="xs:string"/>
+    <xs:attribute name="Illustrator" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="operatorProfile">
+    <xs:simpleContent>
+      <xs:extension base="xs:string">
+        <xs:attribute name="Type" type="operatorProfileType" />
+      </xs:extension>
+    </xs:simpleContent>
+  </xs:complexType>
+  
+  <xs:simpleType name="operatorProfileType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="BasicProfile"/>
+      <xs:enumeration value="ObjectiveProfile"/>
+      <xs:enumeration value="ClinicalAnalysis"/>
+      <xs:enumeration value="File1"/>
+      <xs:enumeration value="File2"/>
+      <xs:enumeration value="File3"/>
+      <xs:enumeration value="File4"/>
+      <xs:enumeration value="PromotionRecord"/>
+      <xs:enumeration value="Promotion1"/>
+      <xs:enumeration value="Promotion2"/>
+      <xs:enumeration value="Promotion3"/>
+      <xs:enumeration value="Promotion4"/>
+      <xs:enumeration value="Unknown"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="operatorType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Elite0"/>
+      <xs:enumeration value="Elite1"/>
+      <xs:enumeration value="Elite2"/>
+      <xs:enumeration value="Skin"/>
+      <xs:enumeration value="Promotion"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:complexType name="birthday">
+    <xs:attribute name="Month" type="month"/>
+    <xs:attribute name="Day" type="day"/>
+  </xs:complexType>
+
+  <xs:simpleType name="month">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="12"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="day">
+    <xs:restriction base="xs:integer">
+      <xs:minInclusive value="1"/>
+      <xs:maxInclusive value="31"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="class">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Vanguard"/> <!--先锋-->
+      <xs:enumeration value="Sniper"/> <!--狙击-->
+      <xs:enumeration value="Guard"/> <!--近卫-->
+      <xs:enumeration value="Caster"/> <!--术师-->
+      <xs:enumeration value="Defender"/> <!--重装-->
+      <xs:enumeration value="Medic"/> <!--医疗-->
+      <xs:enumeration value="Specialist"/> <!--特种-->
+      <xs:enumeration value="Supporter"/> <!--辅助-->
+    </xs:restriction>
+  </xs:simpleType>
+  
+  <xs:simpleType name="gender">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Male"/> <!--男性-->
+      <xs:enumeration value="Female"/> <!--女性-->
+      <xs:enumeration value="Conviction"/> <!--断罪-->
+    </xs:restriction>
+  </xs:simpleType>
+
+   <xs:simpleType name="star">
+     <xs:restriction base="xs:integer">
+        <xs:minInclusive value="1"/>
+        <xs:maxInclusive value="6"/>
+      </xs:restriction>
+   </xs:simpleType>
+</xs:schema>
