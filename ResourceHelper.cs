@@ -26,7 +26,16 @@ namespace ArknightsResources.Operators.Resources
         /// <returns>一个byte数组,其中包含了干员的图片信息</returns>
         public static byte[] GetOperatorImage(OperatorIllustrationInfo illustrationInfo)
         {
-            string name = $"operator_image_{illustrationInfo.ImageCodename}";
+            string name;
+            if (illustrationInfo.Type == OperatorType.Skin)
+            {
+                name = $"operator_image_skin_{illustrationInfo.ImageCodename}";
+            }
+            else
+            {
+                name = $"operator_image_{illustrationInfo.ImageCodename}";
+            }
+
             byte[] value = (byte[])OperatorResources.ResourceManager.GetObject(name);
             if (value is null)
             {

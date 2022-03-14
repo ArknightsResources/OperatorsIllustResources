@@ -16,6 +16,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AssetsTools.NET" Version="2.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ArknightsResources.Operators.Models\ArknightsResources.Operators.Models.csproj" />
   </ItemGroup>
 
