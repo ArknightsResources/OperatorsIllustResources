@@ -29,7 +29,7 @@ namespace ArknightsResources.Operators.Resources
             string name;
             if (illustrationInfo.Type == OperatorType.Skin)
             {
-                name = $"operator_image_skin_{illustrationInfo.ImageCodename}";
+                name = $"operator_image_skin_{illustrationInfo.ImageCodename.Split('_')[0]}";
             }
             else
             {

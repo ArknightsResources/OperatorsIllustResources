@@ -121,6 +121,1179 @@
   <data name="OperatorsSchema" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\texts\operators.xsd;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="operator_image_12fce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_12fce.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_absin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_absin.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_acast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_acast.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_acdrop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_acdrop.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_adnach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_adnach.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_aglina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_aglina.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_aguard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_aguard.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_akafyu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_akafyu.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_amedic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_amedic.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_amgoat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_amgoat.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_amiya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_amiya.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_amiya2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_amiya2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_angel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_angel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_ansel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_ansel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_aosta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_aosta.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_aprl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_aprl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_aprot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_aprot.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_aprot2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_aprot2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_archet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_archet.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_ardign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_ardign.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_asbest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_asbest.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_ash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_ash.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_ashlok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_ashlok.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_asnipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_asnipe.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_astesi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_astesi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_aurora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_aurora.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_ayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_ayer.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_beagle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_beagle.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_beewax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_beewax.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_bena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_bena.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_bibeak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_bibeak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_billro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_billro.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_bison" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_bison.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_blackd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_blackd.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_bldsk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_bldsk.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_blemsh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_blemsh.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_blitz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_blitz.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_blkngt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_blkngt.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_bluep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_bluep.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_bpipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_bpipe.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_breeze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_breeze.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_broca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_broca.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_brownb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_brownb.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_bstalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_bstalk.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_bubble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_bubble.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_cammou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_cammou.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_cast3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_cast3.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_catap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_catap.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_ccheal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_ccheal.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_cerber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_cerber.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_ceylon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_ceylon.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_cgbird" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_cgbird.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_chen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_chen.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_chen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_chen2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_chiave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_chiave.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_clour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_clour.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_cqbw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_cqbw.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_crow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_crow.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_cutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_cutter.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_cuttle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_cuttle.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_deepcl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_deepcl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_demkni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_demkni.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_doberm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_doberm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_durin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_durin.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_durnar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_durnar.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_dusk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_dusk.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_elysm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_elysm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_estell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_estell.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_ethan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_ethan.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_excu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_excu.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_f12yin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_f12yin.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_falco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_falco.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_fang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_fang.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_fartth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_fartth.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_finlpp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_finlpp.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_flameb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_flameb.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_flamtl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_flamtl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_flint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_flint.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_flower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_flower.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_fmout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_fmout.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_folivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_folivo.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_folnic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_folnic.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_forcer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_forcer.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_franka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_franka.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_frncat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_frncat.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_frostl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_frostl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_gdglow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_gdglow.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_ghost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_ghost.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_glacus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_glacus.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_glady" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_glady.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_glassb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_glassb.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_glaze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_glaze.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_glider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_glider.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_gnosis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_gnosis.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_grani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_grani.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_gravel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_gravel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_greyy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_greyy.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_gyuki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_gyuki.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_haak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_haak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_headbr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_headbr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_helage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_helage.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_hibisc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_hibisc.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_hmau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_hmau.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_hpsts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_hpsts.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_hsguma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_hsguma.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_huang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_huang.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_ifrit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_ifrit.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_indigo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_indigo.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_iris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_iris.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_jaksel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_jaksel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_jesica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_jesica.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_jnight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_jnight.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_kafka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_kafka.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_kalts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_kalts.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_kazema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_kazema.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_kirara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_kirara.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_kjera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_kjera.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_knit3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_knit3.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_kroos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_kroos.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_kroos2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_kroos2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_lava" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_lava.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_lava2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_lava2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_leizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_leizi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_ling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_ling.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_lionhd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_lionhd.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_lisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_lisa.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_liskam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_liskam.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_lmlee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_lmlee.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_mantic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_mantic.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_mberry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_mberry.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_medic2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_medic2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_melan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_melan.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_meteo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_meteo.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_mgllan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_mgllan.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_midn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_midn.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_milu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_milu.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_mint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_mint.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_mizuki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_mizuki.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_mm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_mm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_moeshd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_moeshd.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_mostma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_mostma.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_mudrok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_mudrok.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_myrrh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_myrrh.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_myrtle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_myrtle.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_nblade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_nblade.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_ncdeer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_ncdeer.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_nearl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_nearl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_nearl2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_nearl2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_nian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_nian.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_nightm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_nightm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_nights" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_nights.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_noirc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_noirc.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_nothin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_nothin.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_orchid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_orchid.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_otter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_otter.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_owl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_owl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_pallas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_pallas.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_panda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_panda.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_pasngr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_pasngr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_peacok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_peacok.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_phatom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_phatom.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_phenxi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_phenxi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_pinecn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_pinecn.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_platnm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_platnm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_plosis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_plosis.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_poca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_poca.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_podego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_podego.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_popka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_popka.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_prove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_prove.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_pudd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_pudd.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_quercu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_quercu.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_rang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_rang.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_rcast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_rcast.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_red.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_rfrost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_rfrost.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_rguard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_rguard.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_rmedic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_rmedic.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_robin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_robin.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_robrta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_robrta.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_rope" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_rope.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_rosmon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_rosmon.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_rsnipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_rsnipe.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_saga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_saga.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_savage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_savage.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_scave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_scave.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_sddrag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_sddrag.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_serum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_serum.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_sesa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_sesa.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_shining" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_shining.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_shotst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_shotst.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_shwaz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_shwaz.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_sidero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_sidero.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_siege" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_siege.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_silent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_silent.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skadi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skadi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skadi2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skadi2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skfire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skfire.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skgoat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skgoat.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_aglina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_aglina.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_amgoat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_amgoat.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_amiya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_amiya.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_angel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_angel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_ansel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_ansel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_aprl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_aprl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_archet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_archet.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_ardign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_ardign.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_ash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_ash.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_astesi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_astesi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_ayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_ayer.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_beagle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_beagle.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_beewax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_beewax.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_bibeak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_bibeak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_billro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_billro.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_blackd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_blackd.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_bldsk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_bldsk.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_blemsh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_blemsh.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_bluep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_bluep.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_bpipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_bpipe.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_brownb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_brownb.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_bstalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_bstalk.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_cammou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_cammou.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_cast3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_cast3.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_ccheal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_ccheal.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_cerber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_cerber.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_cgbird" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_cgbird.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_chen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_chen.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_cqbw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_cqbw.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_cuttle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_cuttle.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_demkni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_demkni.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_doberm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_doberm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_dusk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_dusk.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_elysm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_elysm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_ethan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_ethan.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_excu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_excu.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_f12yin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_f12yin.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_fang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_fang.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_flint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_flint.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_flower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_flower.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_fmout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_fmout.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_folnic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_folnic.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_ghost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_ghost.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_glacus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_glacus.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_glassb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_glassb.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_grani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_grani.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_gravel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_gravel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_greyy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_greyy.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_haak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_haak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_headbr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_headbr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_helage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_helage.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_hibisc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_hibisc.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_hmau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_hmau.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_hsguma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_hsguma.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_huang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_huang.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_ifrit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_ifrit.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_indigo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_indigo.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_jaksel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_jaksel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_jesica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_jesica.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_kafka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_kafka.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_kroos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_kroos.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_lava2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_lava2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_lionhd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_lionhd.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_lisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_lisa.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_liskam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_liskam.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_mantic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_mantic.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_mberry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_mberry.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_melan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_melan.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_meteo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_meteo.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_mgllan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_mgllan.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_midn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_midn.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_milu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_milu.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_moeshd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_moeshd.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_mostma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_mostma.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_mudrok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_mudrok.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_myrrh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_myrrh.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_myrtle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_myrtle.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_nearl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_nearl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_nian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_nian.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_nightm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_nightm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_nothin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_nothin.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_otter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_otter.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_pallas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_pallas.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_panda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_panda.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_phatom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_phatom.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_pinecn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_pinecn.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_platnm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_platnm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_plosis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_plosis.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_poca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_poca.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_podego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_podego.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_prove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_prove.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_red.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_robin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_robin.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_rope" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_rope.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_shining" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_shining.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_shotst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_shotst.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_shwaz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_shwaz.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_sidero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_sidero.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_siege" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_siege.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_silent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_silent.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_skadi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_skadi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_skfire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_skfire.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_slbell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_slbell.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_slchan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_slchan.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_sleach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_sleach.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_snakek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_snakek.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_snsant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_snsant.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_sophia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_sophia.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_sora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_sora.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_spikes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_spikes.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_spot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_spot.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_sqrrel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_sqrrel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_strong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_strong.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_sunbr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_sunbr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_surtr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_surtr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_susuro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_susuro.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_svrash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_svrash.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_swire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_swire.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_swllow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_swllow.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_tachak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_tachak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_texas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_texas.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_thorns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_thorns.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_tknogi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_tknogi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_tomimi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_tomimi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_tuye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_tuye.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_utage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_utage.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_vigna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_vigna.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_vodfox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_vodfox.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_waaifu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_waaifu.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_weedy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_weedy.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_whispr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_whispr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_whitew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_whitew.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_yak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_yak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_yuki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_yuki.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_zumama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_zumama.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_slbell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_slbell.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_slchan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_slchan.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_sleach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_sleach.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_snakek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_snakek.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_snsant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_snsant.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_sophia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_sophia.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_sora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_sora.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spikes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_spikes.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_spot.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_sqrrel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_sqrrel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_strong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_strong.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_stward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_stward.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_sunbr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_sunbr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_surtr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_surtr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_susuro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_susuro.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_svrash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_svrash.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_swire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_swire.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_swllow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_swllow.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_tachak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_tachak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_takila" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_takila.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_texas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_texas.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_therex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_therex.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_thorns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_thorns.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_tiger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_tiger.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_tknogi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_tknogi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_toddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_toddi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_tomimi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_tomimi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_tuye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_tuye.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_utage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_utage.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_vigna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_vigna.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_vodfox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_vodfox.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_waaifu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_waaifu.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_weedy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_weedy.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_whispr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_whispr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_whitew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_whitew.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_wildmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_wildmn.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_wyvern" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_wyvern.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_yak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_yak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_yuki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_yuki.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_zebra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_zebra.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_zumama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_zumama.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10000_silent_healrb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10000_silent_healrb.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10002_kalts_mon3tr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10002_kalts_mon3tr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10003_cgbird_bird" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10003_cgbird_bird.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10004_otter_motter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10004_otter_motter.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10005_mgllan_drone1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10005_mgllan_drone1.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10005_mgllan_drone2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10005_mgllan_drone2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10005_mgllan_drone3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10005_mgllan_drone3.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10006_vodfox_doll" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10006_vodfox_doll.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10007_phatom_twin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10007_phatom_twin.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10008_cqbw_box" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10008_cqbw_box.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10009_weedy_cannon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10009_weedy_cannon.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10011_beewax_oblisk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10011_beewax_oblisk.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10013_robin_mine" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10013_robin_mine.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10014_bstalk_crab" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10014_bstalk_crab.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="token_10015_dusk_drgn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\token_10015_dusk_drgn.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="trap_024_npcsld" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\trap_024_npcsld.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="trap_035_emperor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\trap_035_emperor.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="干员皮肤代号" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\干员皮肤代号.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
