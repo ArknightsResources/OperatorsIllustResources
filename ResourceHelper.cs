@@ -41,7 +41,9 @@ namespace ArknightsResources.Operators.Resources
             {
                 throw new ArgumentException($@"使用给定的参数""{illustrationInfo}""时找不到资源");
             }
-            return value;
+
+            byte[] image = AssetBundleHelper.GetOperatorIllustration(value, $"{name}.ab", illustrationInfo);
+            return image;
         }
 
         /// <summary>
