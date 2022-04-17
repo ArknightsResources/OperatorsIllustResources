@@ -1,13 +1,14 @@
 ﻿using ArknightsResources.Operators.Models;
 using AssetStudio;
 using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.Formats.Png;
 using SixLabors.ImageSharp.PixelFormats;
+using SixLabors.ImageSharp.Processing;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.IO;
 using System.Linq;
-using System.Runtime.InteropServices;
+using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 
 namespace ArknightsResources.Operators.Resources
@@ -63,13 +64,23 @@ namespace ArknightsResources.Operators.Resources
                 {
                     if (item.m_Name.Contains("[alpha]"))
                     {
-                        alpha = item.ConvertToImage(false);
+                        alpha = item.ConvertToImage();
                     }
                     else
                     {
-                        rgb = item.ConvertToImage(false);
+                        rgb = item.ConvertToImage();
                     }
                 }
+
+#if DEBUG
+                FileStream fileRGB = File.OpenWrite(@"E:\Temp\ArkRes\RGBArkRes.png");
+                rgb.SaveAsPng(fileRGB);
+                fileRGB.Dispose();
+
+                FileStream fileAlpha = File.OpenWrite(@"E:\Temp\ArkRes\AlphaArkRes.png");
+                alpha.SaveAsPng(fileAlpha);
+                fileAlpha.Dispose();
+#endif
 
                 return ImageHelper.ProcessImage(rgb, alpha);
             }
@@ -104,6 +115,35 @@ namespace ArknightsResources.Operators.Resources
                 {
                     return false;
                 }
+            }
+        }
+
+        private static Image<Bgra32> ConvertToImage(this Texture2D m_Texture2D)
+        {
+            ResourceReader reader = m_Texture2D.image_data;
+            byte[] originData = BigArrayPool<byte>.Shared.Rent(reader.Size);
+            reader.GetData(originData);
+
+            byte[] dataManaged = ImageHelper.DecodeETC1(originData, m_Texture2D.m_Width, m_Texture2D.m_Height);
+            var data = BigArrayPool<byte>.Shared.Rent(m_Texture2D.m_Width * m_Texture2D.m_Height * 4);
+            bool success = ImageHelper.DecodeETC1Native(originData, m_Texture2D.m_Width, m_Texture2D.m_Height, data);
+            if (!success)
+            {
+                BigArrayPool<byte>.Shared.Return(originData);
+                BigArrayPool<byte>.Shared.Return(data);
+                throw new ArgumentException("无法解析文件");
+            }
+
+            try
+            {
+                var image = Image.LoadPixelData<Bgra32>(data, m_Texture2D.m_Width, m_Texture2D.m_Height);
+                image.Mutate(x => x.Flip(FlipMode.Vertical));
+                return image;
+            }
+            finally
+            {
+                BigArrayPool<byte>.Shared.Return(originData);
+                BigArrayPool<byte>.Shared.Return(data);
             }
         }
     }

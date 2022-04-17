@@ -12,13 +12,14 @@
     <Copyright>Copyright (c) 2022 Baka632</Copyright>
     <PackageProjectUrl>https://github.com/Baka632/ArknightsResources</PackageProjectUrl>
     <RepositoryUrl>https://dev.azure.com/LiveBakaStudio/ArknightsResources/_git/ArknightsResources?path=/ArknightsResources.Operators.Resources</RepositoryUrl>
-    <PackageTags>Arknights</PackageTags>
+    <PackageTags>Arknights;明日方舟</PackageTags>
 	<IncludeSymbols>true</IncludeSymbols>
 	<PublishRepositoryUrl>true</PublishRepositoryUrl>
 	<SymbolPackageFormat>snupkg</SymbolPackageFormat>
 	<EmbedUntrackedSources>true</EmbedUntrackedSources>
 	<PackageIcon>icon.png</PackageIcon>
 	<AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+	<Description>Provides resources about Arknights Operators</Description>
   </PropertyGroup>
 
   <ItemGroup>
@@ -39,7 +40,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ArknightsResources.Operators.Models\ArknightsResources.Operators.Models.csproj" />
-    <ProjectReference Include="..\AssetStudio\AssetStudioUtility\AssetStudioUtility.csproj" />
     <ProjectReference Include="..\AssetStudio\AssetStudio\AssetStudio.csproj" />
   </ItemGroup>
 
