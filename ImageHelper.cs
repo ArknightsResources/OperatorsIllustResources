@@ -159,14 +159,14 @@ namespace ArknightsResources.Operators.Resources
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private static unsafe void CopyBlockBuffer(int bx, int by, int w, int h, int bw, int bh, int[] buffer, byte[] imageData)
         {
+            int x = bw * bx;
+            int xl = (bw * (bx + 1) > w ? w - bw * bx : bw) * 4;
+
             fixed (int* buff = buffer)
             {
                 fixed(byte* data = imageData)
                 {
                     int* buf = buff;
-
-                    int x = bw * bx;
-                    int xl = (bw * (bx + 1) > w ? w - bw * bx : bw) * 4;
                     int* buffer_end = buf + bw * bh;
                     for (int y = by * bh; buf < buffer_end && y < h; buf += bw, y++)
                     {
