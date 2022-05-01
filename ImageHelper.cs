@@ -1,10 +1,12 @@
 ﻿using AssetStudio;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
+using SixLabors.ImageSharp.Processing;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
@@ -69,9 +71,43 @@ namespace ArknightsResources.Operators.Resources
 
         public static byte[] ProcessImage(Image<Bgra32> rgb, Image<Bgra32> alpha)
         {
-            //Image<Rgba32> image = new Image<Rgba32>(rgbImage.Width, rgbImage.Height);
+            alpha.Mutate(x => x.Resize(2048, 2048));
+            rgb.ProcessPixelRows(accessor =>
+            {
+                Bgra32 transparent = SixLabors.ImageSharp.Color.Transparent;
+                for (int y = 0; y < accessor.Height; y++)
+                {
+                    Span<Bgra32> pixelRow = accessor.GetRowSpan(y);
 
-            return new byte[] { 0, 0, 0, 0 };
+                    // pixelRow.Length has the same value as accessor.Width,
+                    // but using pixelRow.Length allows the JIT to optimize away bounds checks:
+                    for (int x = 0; x < pixelRow.Length; x++)
+                    {
+                        ref Bgra32 pixel = ref pixelRow[x];
+                        bool isSet = false;
+
+                        alpha.ProcessPixelRows(accessorAlpha =>
+                        {
+                            Span<Bgra32> pixelRowAlpha = accessorAlpha.GetRowSpan(y);
+                            ref Bgra32 pixelAlpha = ref pixelRowAlpha[x];
+
+                            if (pixelAlpha.B != 255 && pixelAlpha.R != 255 && pixelAlpha.G != 255)
+                            {
+                                isSet = true;
+                            }
+                            
+                        });
+
+                        if (isSet)
+                        {
+                            pixel = transparent;
+                        }
+                    }
+                }
+            });
+            var stream = new MemoryStream();
+            rgb.SaveAsPng(stream);
+            return stream.ToArray();
         }
 
         internal static byte[] DecodeETC1(byte[] originData, int w, int h)
