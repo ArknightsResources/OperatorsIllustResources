@@ -4,6 +4,8 @@ using SixLabors.ImageSharp.PixelFormats;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Text;
@@ -72,24 +74,6 @@ namespace ArknightsResources.Operators.Resources
             return new byte[] { 0, 0, 0, 0 };
         }
 
-        [DllImport("kernel32.dll", SetLastError = true, CharSet = CharSet.Unicode)]
-        private static extern IntPtr LoadLibraryEx(string lpLibFileName, IntPtr hFile, uint dwFlags);
-
-        [DllImport("Texture2DDecoderNative", EntryPoint = "DecodeETC1", CallingConvention = CallingConvention.Winapi)]
-        [return: MarshalAs(UnmanagedType.Bool)]
-        private static extern unsafe bool DecodeETC1NativeInternal(void* pData, int width, int height, void* pImage);
-        
-        internal static unsafe bool DecodeETC1Native(byte[] data, int width, int height, byte[] image)
-        {
-            fixed (byte* pData = data)
-            {
-                fixed (byte* pImage = image)
-                {
-                    return DecodeETC1NativeInternal(pData, width, height, pImage);
-                }
-            }
-        }
-
         internal static byte[] DecodeETC1(byte[] originData, int w, int h)
         {
             var imageData = BigArrayPool<byte>.Shared.Rent(w * h * 4);
@@ -103,7 +87,9 @@ namespace ArknightsResources.Operators.Resources
             {
                 for (int bx = 0; bx < num_blocks_x; bx++, index += 8)
                 {
-                    DecodeETC1Block(originDataSpan.Slice(index, 8), buffer);
+                    Span<byte> slice = originDataSpan.Slice(index, 8);
+                    DecodeETC1Block(slice, buffer);
+
                     CopyBlockBuffer(bx, by, w, h, 4, 4, buffer, imageData);
                 }
             }
@@ -159,20 +145,14 @@ namespace ArknightsResources.Operators.Resources
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
         private static unsafe void CopyBlockBuffer(int bx, int by, int w, int h, int bw, int bh, int[] buffer, byte[] imageData)
         {
+            Span<int> buf = buffer.AsSpan();
             int x = bw * bx;
-            int xl = (bw * (bx + 1) > w ? w - bw * bx : bw) * 4;
-
-            fixed (int* buff = buffer)
+            int xl = (bw * (bx + 1) > w ? w - (bw * bx) : bw) * 4;
+            int index = 0;
+            for (int y = by * bh; index < buf.Length && y < h; index += bw, y++)
             {
-                fixed(byte* data = imageData)
-                {
-                    int* buf = buff;
-                    int* buffer_end = buf + bw * bh;
-                    for (int y = by * bh; buf < buffer_end && y < h; buf += bw, y++)
-                    {
-                        Buffer.BlockCopy(buffer, 0, imageData, y * w + x, xl);
-                    }
-                }
+                var slice = buf.Slice(index, bw).ToArray();
+                Buffer.BlockCopy(slice, 0, imageData, (y * w + x) * 4, xl);
             }
         }
 

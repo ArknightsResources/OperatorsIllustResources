@@ -72,16 +72,6 @@ namespace ArknightsResources.Operators.Resources
                     }
                 }
 
-#if DEBUG
-                FileStream fileRGB = File.OpenWrite(@"E:\Temp\ArkRes\RGBArkRes.png");
-                rgb.SaveAsPng(fileRGB);
-                fileRGB.Dispose();
-
-                FileStream fileAlpha = File.OpenWrite(@"E:\Temp\ArkRes\AlphaArkRes.png");
-                alpha.SaveAsPng(fileAlpha);
-                fileAlpha.Dispose();
-#endif
-
                 return ImageHelper.ProcessImage(rgb, alpha);
             }
 
@@ -94,6 +84,7 @@ namespace ArknightsResources.Operators.Resources
                     {
                         return false;
                     }
+
                     Match match;
                     if (info.Type == OperatorType.Skin)
                     {
@@ -124,15 +115,7 @@ namespace ArknightsResources.Operators.Resources
             byte[] originData = BigArrayPool<byte>.Shared.Rent(reader.Size);
             reader.GetData(originData);
 
-            byte[] dataManaged = ImageHelper.DecodeETC1(originData, m_Texture2D.m_Width, m_Texture2D.m_Height);
-            var data = BigArrayPool<byte>.Shared.Rent(m_Texture2D.m_Width * m_Texture2D.m_Height * 4);
-            bool success = ImageHelper.DecodeETC1Native(originData, m_Texture2D.m_Width, m_Texture2D.m_Height, data);
-            if (!success)
-            {
-                BigArrayPool<byte>.Shared.Return(originData);
-                BigArrayPool<byte>.Shared.Return(data);
-                throw new ArgumentException("无法解析文件");
-            }
+            byte[] data = ImageHelper.DecodeETC1(originData, m_Texture2D.m_Width, m_Texture2D.m_Height);
 
             try
             {
