@@ -1,5 +1,7 @@
 ﻿using AssetStudio;
 using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.ColorSpaces;
+using SixLabors.ImageSharp.ColorSpaces.Conversion;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
 using System;
@@ -69,36 +71,46 @@ namespace ArknightsResources.Operators.Resources
             0, 4, 8, 12, 1, 5, 9, 13, 2, 6, 10, 14, 3, 7, 11, 15
         };
 
+        //TODO: Find a better way to process image
         public static byte[] ProcessImage(Image<Bgra32> rgb, Image<Bgra32> alpha)
         {
-            alpha.Mutate(x => x.Resize(2048, 2048));
+            //Bad implementation
+
+            Bgra32 transparent = SixLabors.ImageSharp.Color.Transparent;
+            alpha.Mutate(x => x.Resize(rgb.Width, rgb.Height));
+            alpha.ProcessPixelRows(accessorA =>
+            {
+                Bgra32 black = new Bgra32(0, 0, 0, 255);
+                for (int yA = 0; yA < accessorA.Height; yA++)
+                {
+                    Span<Bgra32> pixelRowA = accessorA.GetRowSpan(yA);
+
+                    // pixelRow.Length has the same value as accessor.Width,
+                    // but using pixelRow.Length allows the JIT to optimize away bounds checks:
+                    for (int x = 0; x < pixelRowA.Length; x++)
+                    {
+                        ref Bgra32 pixel = ref pixelRowA[x];
+                        if (pixel == black)
+                        {
+                            pixel = transparent;
+                        }
+                    }
+                }
+            });
+
             rgb.ProcessPixelRows(accessor =>
             {
-                Bgra32 transparent = SixLabors.ImageSharp.Color.Transparent;
+
                 for (int y = 0; y < accessor.Height; y++)
                 {
                     Span<Bgra32> pixelRow = accessor.GetRowSpan(y);
 
-                    // pixelRow.Length has the same value as accessor.Width,
-                    // but using pixelRow.Length allows the JIT to optimize away bounds checks:
                     for (int x = 0; x < pixelRow.Length; x++)
                     {
                         ref Bgra32 pixel = ref pixelRow[x];
-                        bool isSet = false;
 
-                        alpha.ProcessPixelRows(accessorAlpha =>
-                        {
-                            Span<Bgra32> pixelRowAlpha = accessorAlpha.GetRowSpan(y);
-                            ref Bgra32 pixelAlpha = ref pixelRowAlpha[x];
-
-                            if (pixelAlpha.B != 255 && pixelAlpha.R != 255 && pixelAlpha.G != 255)
-                            {
-                                isSet = true;
-                            }
-                            
-                        });
-
-                        if (isSet)
+                        Bgra32 alphaPixel = alpha[x, y];
+                        if (alphaPixel == transparent || (alphaPixel.B < 60 && alphaPixel.R < 60 && alphaPixel.G < 60))
                         {
                             pixel = transparent;
                         }
