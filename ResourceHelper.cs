@@ -7,6 +7,8 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 using ArknightsResources.Operators.Models;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.PixelFormats;
 using OperatorResources = ArknightsResources.Operators.Resources.Properties.Resources;
 
 namespace ArknightsResources.Operators.Resources
@@ -27,13 +29,14 @@ namespace ArknightsResources.Operators.Resources
         public static byte[] GetOperatorImage(OperatorIllustrationInfo illustrationInfo)
         {
             string name;
+            string fileName = illustrationInfo.ImageCodename.Split('_')[0];
             if (illustrationInfo.Type == OperatorType.Skin)
             {
-                name = $"operator_image_skin_{illustrationInfo.ImageCodename.Split('_')[0]}";
+                name = $"operator_image_skin_{fileName}";
             }
             else
             {
-                name = $"operator_image_{illustrationInfo.ImageCodename}";
+                name = $"operator_image_{fileName}";
             }
 
             byte[] value = (byte[])OperatorResources.ResourceManager.GetObject(name);
@@ -43,6 +46,37 @@ namespace ArknightsResources.Operators.Resources
             }
 
             byte[] image = AssetBundleHelper.GetOperatorIllustration(value, $"{name}.ab", illustrationInfo);
+            return image;
+        }
+
+        /// <summary>
+        /// 通过干员的立绘信息获取其图片
+        /// </summary>
+        /// <exception cref="ArgumentException"/>
+        /// <exception cref="System.Resources.MissingManifestResourceException"/>
+        /// <exception cref="System.Resources.MissingSatelliteAssemblyException"/>
+        /// <param name="illustrationInfo">干员的立绘信息</param>
+        /// <returns>一个Image对象,其中包含了干员的图片信息</returns>
+        public static Image<Bgra32> GetOperatorImageReturnImage(OperatorIllustrationInfo illustrationInfo)
+        {
+            string name;
+            string fileName = illustrationInfo.ImageCodename.Split('_')[0];
+            if (illustrationInfo.Type == OperatorType.Skin)
+            {
+                name = $"operator_image_skin_{fileName}";
+            }
+            else
+            {
+                name = $"operator_image_{fileName}";
+            }
+
+            byte[] value = (byte[])OperatorResources.ResourceManager.GetObject(name);
+            if (value is null)
+            {
+                throw new ArgumentException($@"使用给定的参数""{illustrationInfo}""时找不到资源");
+            }
+
+            Image<Bgra32> image = AssetBundleHelper.GetOperatorIllustrationReturnImage(value, $"{name}.ab", illustrationInfo);
             return image;
         }
 
@@ -98,13 +132,80 @@ namespace ArknightsResources.Operators.Resources
             }
         }
 
-        private static Operator GetOperatorInternal(string operatorName, CultureInfo cultureInfo)
+        /// <summary>
+        /// 通过干员图像代号获取其<see cref="Operator"/>对象
+        /// </summary>
+        /// <param name="operatorCodename">干员图像代号</param>
+        /// <param name="cultureInfo"><see cref="Operator"/>对象的语言文化</param>
+        /// <returns>一个<see cref="Operator"/>对象</returns>
+        /// <exception cref="ArgumentException"/>
+        public static Operator GetOperatorWithCodename(string operatorCodename, CultureInfo cultureInfo)
+        {
+            if (string.IsNullOrWhiteSpace(operatorCodename))
+            {
+                throw new ArgumentException($"“{nameof(operatorCodename)}”不能为 null 或空白。", nameof(operatorCodename));
+            }
+
+            try
+            {
+                return GetOperatorWithCodenameInternal(operatorCodename, cultureInfo);
+            }
+            catch (InvalidOperationException ex)
+            {
+                throw new ArgumentException($"参数\"{operatorCodename}\"无效", ex);
+            }
+            catch (ArgumentNullException ex)
+            {
+                throw new ArgumentException($"提供的语言文化\"{cultureInfo}\"无效", ex);
+            }
+        }
+
+        /// <summary>
+        /// 通过干员名称获取其<see cref="Operator"/>对象
+        /// </summary>
+        /// <param name="operatorCodename">干员名称</param>
+        /// <param name="cultureInfo"><see cref="Operator"/>对象的语言文化</param>
+        /// <returns>一个<see cref="Operator"/>对象</returns>
+        /// <exception cref="ArgumentException"/>
+        public static async Task<Operator> GetOperatorWithCodenameAsync(string operatorCodename, CultureInfo cultureInfo)
+        {
+            if (string.IsNullOrWhiteSpace(operatorCodename))
+            {
+                throw new ArgumentException($"“{nameof(operatorCodename)}”不能为 null 或空白。", nameof(operatorCodename));
+            }
+
+            try
+            {
+                return await Task.Run(() => GetOperatorWithCodenameInternal(operatorCodename, cultureInfo));
+            }
+            catch (InvalidOperationException ex)
+            {
+                throw new ArgumentException($"参数\"{operatorCodename}\"无效", ex);
+            }
+        }
+
+        private static Operator GetOperatorInternal(string operatorCodename, CultureInfo cultureInfo)
         {
             string opXmlStrings = OperatorResources.ResourceManager.GetString("Operators", cultureInfo);
 
             XDocument xDocument = XDocument.Parse(opXmlStrings);
             var operators = (from XElement element in xDocument.Root.Elements()
-                             where element.Attribute("Name").Value == operatorName
+                             where element.Attribute("Name").Value == operatorCodename
+                             select element).AsParallel();
+            XElement opXML = operators.First();
+
+            XmlSerializer xmlSerializer = new XmlSerializer(typeof(Operator), "http://schema.livestudio.com/Operators.xsd");
+            Operator op = (Operator)xmlSerializer.Deserialize(opXML.CreateReader());
+            return op;
+        }
+
+        private static Operator GetOperatorWithCodenameInternal(string operatorCodename, CultureInfo cultureInfo)
+        {
+            string opXmlStrings = OperatorResources.ResourceManager.GetString("Operators", cultureInfo);
+
+            XDocument xDocument = XDocument.Parse(opXmlStrings);
+            var operators = (from XElement element in xDocument.Root.Elements()
+                             where element.Attribute("ImageCodename").Value == operatorCodename
                              select element).AsParallel();
             XElement opXML = operators.First();
 

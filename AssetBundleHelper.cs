@@ -47,6 +47,22 @@ namespace ArknightsResources.Operators.Resources
 
         public static byte[] GetOperatorIllustration(byte[] assetBundleFile, string fileName, OperatorIllustrationInfo illustrationInfo)
         {
+            Image<Bgra32> rgb = null;
+            Image<Bgra32> alpha = null;
+            HandleAbPacksInternal(assetBundleFile, fileName, illustrationInfo, ref rgb, ref alpha);
+            return ImageHelper.ProcessImage(rgb, alpha);
+        }
+
+        public static Image<Bgra32> GetOperatorIllustrationReturnImage(byte[] assetBundleFile, string fileName, OperatorIllustrationInfo illustrationInfo)
+        {
+            Image<Bgra32> rgb = null;
+            Image<Bgra32> alpha = null;
+            HandleAbPacksInternal(assetBundleFile, fileName, illustrationInfo, ref rgb, ref alpha);
+            return ImageHelper.ProcessImageReturnImage(rgb, alpha);
+        }
+
+        private static void HandleAbPacksInternal(byte[] assetBundleFile, string fileName, OperatorIllustrationInfo illustrationInfo, ref Image<Bgra32> rgb, ref Image<Bgra32> alpha)
+        {
             using (MemoryStream stream = new MemoryStream(assetBundleFile))
             {
                 AssetsManager assetsManager = new AssetsManager();
@@ -55,10 +71,8 @@ namespace ArknightsResources.Operators.Resources
                 assetsManager.LoadFile(path, reader);
                 IEnumerable<Texture2D> targets = from asset
                                                  in assetsManager.assetsFileList.FirstOrDefault().Objects
-                                                 where isMatch(asset, illustrationInfo)
+                                                 where IsTexture2DMatch(asset, illustrationInfo)
                                                  select (asset as Texture2D);
-                Image<Bgra32> rgb = null;
-                Image<Bgra32> alpha = null;
 
                 foreach (var item in targets)
                 {
@@ -71,48 +85,46 @@ namespace ArknightsResources.Operators.Resources
                         rgb = item.ConvertToImage();
                     }
                 }
-
-                return ImageHelper.ProcessImage(rgb, alpha);
             }
+        }
 
-            bool isMatch(AssetStudio.Object asset, OperatorIllustrationInfo info)
+        private static bool IsTexture2DMatch(AssetStudio.Object asset, OperatorIllustrationInfo info)
+        {
+            if (asset.type == ClassIDType.Texture2D)
             {
-                if (asset.type == ClassIDType.Texture2D)
-                {
-                    Texture2D texture2D = (Texture2D)asset;
-                    if (texture2D.m_Width <= 512 || texture2D.m_Height <= 512)
-                    {
-                        return false;
-                    }
-
-                    Match match;
-                    if (info.Type == OperatorType.Skin)
-                    {
-                        match = Regex.Match(texture2D.m_Name, $@"char_[\d]*_{info.ImageCodename}#([\d]*)(b?)(\[alpha\])?",
-                                              RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
-                        if (match.Success && !string.IsNullOrWhiteSpace(match.Groups[2].Value))
-                        {
-                            return false;
-                        }
-                    }
-                    else
-                    {
-                        match = Regex.Match(texture2D.m_Name, $@"char_[\d]*_{info.ImageCodename}(?!b)(\[alpha\])?");
-                    }
-                     
-                    return match.Success;
-                }
-                else
+                Texture2D texture2D = (Texture2D)asset;
+                if (texture2D.m_Width <= 512 || texture2D.m_Height <= 512)
                 {
                     return false;
                 }
+
+                Match match;
+                if (info.Type == OperatorType.Skin)
+                {
+                    match = Regex.Match(texture2D.m_Name, $@"char_[\d]*_({info.ImageCodename})#([\d]*)(b?)(\[alpha\])?",
+                                          RegexOptions.IgnoreCase | RegexOptions.CultureInvariant);
+                    if (match.Success && !string.IsNullOrWhiteSpace(match.Groups[3].Value))
+                    {
+                        return false;
+                    }
+                }
+                else
+                {
+                    match = Regex.Match(texture2D.m_Name, $@"char_[\d]*_({info.ImageCodename}\+?)(?!b)(\[alpha\])?");
+                }
+
+                return match.Success && string.Equals(match.Groups[1].Value, info.ImageCodename);
+            }
+            else
+            {
+                return false;
             }
         }
 
         private static Image<Bgra32> ConvertToImage(this Texture2D m_Texture2D)
         {
             ResourceReader reader = m_Texture2D.image_data;
-            byte[] originData = BigArrayPool<byte>.Shared.Rent(reader.Size);
+            byte[] originData = InternalArrayPools.ByteArrayPool.Rent(reader.Size);
             reader.GetData(originData);
 
             byte[] data = ImageHelper.DecodeETC1(originData, m_Texture2D.m_Width, m_Texture2D.m_Height);
@@ -125,8 +137,8 @@ namespace ArknightsResources.Operators.Resources
             }
             finally
             {
-                BigArrayPool<byte>.Shared.Return(originData);
-                BigArrayPool<byte>.Shared.Return(data);
+                InternalArrayPools.ByteArrayPool.Return(originData);
+                InternalArrayPools.ByteArrayPool.Return(data);
             }
         }
     }

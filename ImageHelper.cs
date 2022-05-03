@@ -5,6 +5,7 @@ using SixLabors.ImageSharp.ColorSpaces.Conversion;
 using SixLabors.ImageSharp.PixelFormats;
 using SixLabors.ImageSharp.Processing;
 using System;
+using System.Buffers;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
@@ -70,12 +71,31 @@ namespace ArknightsResources.Operators.Resources
         {
             0, 4, 8, 12, 1, 5, 9, 13, 2, 6, 10, 14, 3, 7, 11, 15
         };
-
-        //TODO: Find a better way to process image
         public static byte[] ProcessImage(Image<Bgra32> rgb, Image<Bgra32> alpha)
         {
             //Bad implementation
 
+            HandleImages(rgb, alpha);
+            var stream = new MemoryStream();
+            rgb.SaveAsPng(stream);
+
+            rgb.Dispose();
+            alpha.Dispose();
+
+            return stream.ToArray();
+        }
+
+        public static Image<Bgra32> ProcessImageReturnImage(Image<Bgra32> rgb, Image<Bgra32> alpha)
+        {
+            HandleImages(rgb, alpha);
+            alpha.Dispose();
+            return rgb;
+        }
+
+        //TODO: Find a better way to process image
+        private static void HandleImages(Image<Bgra32> rgb, Image<Bgra32> alpha)
+        {
+            //Bad implementation
             Bgra32 transparent = SixLabors.ImageSharp.Color.Transparent;
             alpha.Mutate(x => x.Resize(rgb.Width, rgb.Height));
             alpha.ProcessPixelRows(accessorA =>
@@ -117,18 +137,15 @@ namespace ArknightsResources.Operators.Resources
                     }
                 }
             });
-            var stream = new MemoryStream();
-            rgb.SaveAsPng(stream);
-            return stream.ToArray();
         }
 
         internal static byte[] DecodeETC1(byte[] originData, int w, int h)
         {
-            var imageData = BigArrayPool<byte>.Shared.Rent(w * h * 4);
+            var imageData = InternalArrayPools.ByteArrayPool.Rent(w * h * 4);
 
             int num_blocks_x = (w + 3) / 4;
             int num_blocks_y = (h + 3) / 4;
-            int[] buffer = new int[16];
+            int[] buffer = InternalArrayPools.Int32ArrayPool.Rent(16);
             Span<byte> originDataSpan = originData.AsSpan();
             int index = 0;
             for (int by = 0; by < num_blocks_y; by++)
@@ -149,7 +166,8 @@ namespace ArknightsResources.Operators.Resources
         {
             byte[] code = new byte[] { (byte)(data[3] >> 5), (byte)(data[3] >> 2 & 7) };  // Table codewords
             byte[] table = Etc1SubblockTable[data[3] & 1];
-            byte[][] c = new byte[2][];
+
+            byte[][] c = InternalArrayPools.ByteArrayArrayPool.Rent(2);
             c[0] = new byte[3];
             c[1] = new byte[3];
 
@@ -188,6 +206,7 @@ namespace ArknightsResources.Operators.Resources
                 byte m = Etc1ModifierTable[code[s]][j & 1];
                 buffer[WriteOrderTable[i]] = ApplicateColor(c[s], (k & 1) == 1 ? -m : m);
             }
+            InternalArrayPools.ByteArrayArrayPool.Return(c);
         }
 
         [MethodImpl(MethodImplOptions.AggressiveInlining)]
@@ -199,8 +218,14 @@ namespace ArknightsResources.Operators.Resources
             int index = 0;
             for (int y = by * bh; index < buf.Length && y < h; index += bw, y++)
             {
-                var slice = buf.Slice(index, bw).ToArray();
-                Buffer.BlockCopy(slice, 0, imageData, (y * w + x) * 4, xl);
+                var slice = buf.Slice(index, bw);
+                int[] sliceArray = InternalArrayPools.Int32ArrayPool.Rent(slice.Length);
+                for (int i = 0; i < slice.Length; i++)
+                {
+                    sliceArray[i] = slice[i];
+                }
+                Buffer.BlockCopy(sliceArray, 0, imageData, (y * w + x) * 4, xl);
+                InternalArrayPools.Int32ArrayPool.Return(sliceArray);
             }
         }
 
