@@ -35,12 +35,13 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="SixLabors.ImageSharp" Version="2.1.2" />
-    <PackageReference Include="System.Memory" Version="4.5.4" />
+    <PackageReference Include="System.Memory" Version="4.5.5" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ArknightsResources.CustomResourceHelpers\ArknightsResources.CustomResourceHelpers.csproj" />
     <ProjectReference Include="..\ArknightsResources.Operators.Models\ArknightsResources.Operators.Models.csproj" />
-    <ProjectReference Include="..\AssetStudio\AssetStudio\AssetStudio.csproj" />
+    <ProjectReference Include="..\ArknightsResources.Utility\ArknightsResources.Utility.csproj" />
   </ItemGroup>
 
   <ItemGroup>

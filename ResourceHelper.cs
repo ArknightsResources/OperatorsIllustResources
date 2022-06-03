@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Xml.Serialization;
 using ArknightsResources.Operators.Models;
+using ArknightsResources.Utility;
 using SixLabors.ImageSharp;
 using SixLabors.ImageSharp.PixelFormats;
 using OperatorResources = ArknightsResources.Operators.Resources.Properties.Resources;
@@ -45,7 +46,7 @@ namespace ArknightsResources.Operators.Resources
                 throw new ArgumentException($@"使用给定的参数""{illustrationInfo}""时找不到资源");
             }
 
-            byte[] image = AssetBundleHelper.GetOperatorIllustration(value, $"{name}.ab", illustrationInfo);
+            byte[] image = AssetBundleHelper.GetOperatorIllustration(value, illustrationInfo);
             return image;
         }
 
@@ -76,7 +77,7 @@ namespace ArknightsResources.Operators.Resources
                 throw new ArgumentException($@"使用给定的参数""{illustrationInfo}""时找不到资源");
             }
 
-            Image<Bgra32> image = AssetBundleHelper.GetOperatorIllustrationReturnImage(value, $"{name}.ab", illustrationInfo);
+            Image<Bgra32> image = AssetBundleHelper.GetOperatorIllustrationReturnImage(value, illustrationInfo);
             return image;
         }
 
