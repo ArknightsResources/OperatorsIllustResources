@@ -2,10 +2,12 @@
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Resources;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 using System.Xml.Serialization;
+using ArknightsResources.CustomResourceHelpers;
 using ArknightsResources.Operators.Models;
 using ArknightsResources.Utility;
 using SixLabors.ImageSharp;
@@ -17,17 +19,18 @@ namespace ArknightsResources.Operators.Resources
     /// <summary>
     /// 为ArknightsResources.Operators.Resources的资源访问提供帮助的类
     /// </summary>
-    public static class ResourceHelper
+    public class ResourceHelper : OperatorResourceHelper
     {
         /// <summary>
-        /// 通过干员的立绘信息获取其图片
+        /// <seealso cref="ResourceHelper"/>的实例
         /// </summary>
+        public static readonly ResourceHelper Instance = new ResourceHelper();
+
+        /// <inheritdoc/>
         /// <exception cref="ArgumentException"/>
-        /// <exception cref="System.Resources.MissingManifestResourceException"/>
-        /// <exception cref="System.Resources.MissingSatelliteAssemblyException"/>
-        /// <param name="illustrationInfo">干员的立绘信息</param>
-        /// <returns>一个byte数组,其中包含了干员的图片信息</returns>
-        public static byte[] GetOperatorImage(OperatorIllustrationInfo illustrationInfo)
+        /// <exception cref="MissingManifestResourceException"/>
+        /// <exception cref="MissingSatelliteAssemblyException"/>
+        public override byte[] GetOperatorImage(OperatorIllustrationInfo illustrationInfo)
         {
             string name;
             string fileName = illustrationInfo.ImageCodename.Split('_')[0];
@@ -58,7 +61,7 @@ namespace ArknightsResources.Operators.Resources
         /// <exception cref="System.Resources.MissingSatelliteAssemblyException"/>
         /// <param name="illustrationInfo">干员的立绘信息</param>
         /// <returns>一个Image对象,其中包含了干员的图片信息</returns>
-        public static Image<Bgra32> GetOperatorImageReturnImage(OperatorIllustrationInfo illustrationInfo)
+        public Image<Bgra32> GetOperatorImageReturnImage(OperatorIllustrationInfo illustrationInfo)
         {
             string name;
             string fileName = illustrationInfo.ImageCodename.Split('_')[0];
@@ -81,14 +84,9 @@ namespace ArknightsResources.Operators.Resources
             return image;
         }
 
-        /// <summary>
-        /// 通过干员名称获取其<see cref="Operator"/>对象
-        /// </summary>
-        /// <param name="operatorName">干员名称</param>
-        /// <param name="cultureInfo"><see cref="Operator"/>对象的语言文化</param>
-        /// <returns>一个<see cref="Operator"/>对象</returns>
+        /// <inheritdoc/>
         /// <exception cref="ArgumentException"/>
-        public static Operator GetOperator(string operatorName, CultureInfo cultureInfo)
+        public override Operator GetOperator(string operatorName, CultureInfo cultureInfo)
         {
             if (string.IsNullOrWhiteSpace(operatorName))
             {
@@ -116,7 +114,7 @@ namespace ArknightsResources.Operators.Resources
         /// <param name="cultureInfo"><see cref="Operator"/>对象的语言文化</param>
         /// <returns>一个<see cref="Operator"/>对象</returns>
         /// <exception cref="ArgumentException"/>
-        public static async Task<Operator> GetOperatorAsync(string operatorName, CultureInfo cultureInfo)
+        public async Task<Operator> GetOperatorAsync(string operatorName, CultureInfo cultureInfo)
         {
             if (string.IsNullOrWhiteSpace(operatorName))
             {
@@ -133,14 +131,9 @@ namespace ArknightsResources.Operators.Resources
             }
         }
 
-        /// <summary>
-        /// 通过干员图像代号获取其<see cref="Operator"/>对象
-        /// </summary>
-        /// <param name="operatorCodename">干员图像代号</param>
-        /// <param name="cultureInfo"><see cref="Operator"/>对象的语言文化</param>
-        /// <returns>一个<see cref="Operator"/>对象</returns>
+        /// <inheritdoc/>
         /// <exception cref="ArgumentException"/>
-        public static Operator GetOperatorWithCodename(string operatorCodename, CultureInfo cultureInfo)
+        public override Operator GetOperatorWithCodename(string operatorCodename, CultureInfo cultureInfo)
         {
             if (string.IsNullOrWhiteSpace(operatorCodename))
             {
@@ -168,7 +161,7 @@ namespace ArknightsResources.Operators.Resources
         /// <param name="cultureInfo"><see cref="Operator"/>对象的语言文化</param>
         /// <returns>一个<see cref="Operator"/>对象</returns>
         /// <exception cref="ArgumentException"/>
-        public static async Task<Operator> GetOperatorWithCodenameAsync(string operatorCodename, CultureInfo cultureInfo)
+        public async Task<Operator> GetOperatorWithCodenameAsync(string operatorCodename, CultureInfo cultureInfo)
         {
             if (string.IsNullOrWhiteSpace(operatorCodename))
             {
@@ -183,6 +176,18 @@ namespace ArknightsResources.Operators.Resources
             {
                 throw new ArgumentException($"参数\"{operatorCodename}\"无效", ex);
             }
+        }
+
+        /// <inheritdoc/>
+        public override Operator[] GetAllOperators(CultureInfo cultureInfo)
+        {
+            return GetAllOperatorsInternal(cultureInfo);
+        }
+
+        /// <inheritdoc/>
+        public override async Task<Operator[]> GetAllOperatorsAsync(CultureInfo cultureInfo)
+        {
+            return await Task.Run(() => GetAllOperatorsInternal(cultureInfo));
         }
 
         private static Operator GetOperatorInternal(string operatorCodename, CultureInfo cultureInfo)
@@ -213,24 +218,6 @@ namespace ArknightsResources.Operators.Resources
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(Operator), "http://schema.livestudio.com/Operators.xsd");
             Operator op = (Operator)xmlSerializer.Deserialize(opXML.CreateReader());
             return op;
-        }
-
-        /// <summary>
-        /// 获取全部干员
-        /// </summary>
-        /// <returns>一个<see cref="Operator"/>数组</returns>
-        public static Operator[] GetAllOperators(CultureInfo cultureInfo)
-        {
-            return GetAllOperatorsInternal(cultureInfo);
-        }
-
-        /// <summary>
-        /// 异步获取全部干员
-        /// </summary>
-        /// <returns>一个<see cref="Operator"/>数组</returns>
-        public static async Task<Operator[]> GetAllOperatorsAsync(CultureInfo cultureInfo)
-        {
-            return await Task.Run(() => GetAllOperatorsInternal(cultureInfo));
         }
 
         private static Operator[] GetAllOperatorsInternal(CultureInfo cultureInfo)
