@@ -743,6 +743,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_erato {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_erato", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_estell {
             get {
                 object obj = ResourceManager.GetObject("operator_image_estell", resourceCulture);
@@ -2573,6 +2583,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_skin_glady {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_glady", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_skin_glassb {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_glassb", resourceCulture);
@@ -4172,7 +4192,7 @@ namespace ArknightsResources.Operators.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 [最后更新:2022年2月20日]
+        ///   查找类似 [最后更新:2022年6月5日]
         ///aglina_boc
         ///aglina_summer
         ///amiya_epoque
@@ -4185,9 +4205,11 @@ namespace ArknightsResources.Operators.Resources.Properties {
         ///aprl_wild
         ///archet_shining
         ///ardign_snow
+        ///asbest_whirlwind
         ///ash_rainbow6
         ///astesi_epoque
         ///astesi_shining
+        ///aurora_boc
         ///ayer_boc
         ///beagle_boc
         ///beewax_epoque
@@ -4206,10 +4228,7 @@ namespace ArknightsResources.Operators.Resources.Properties {
         ///cast3_summer
         ///ccheal_epoque
         ///cerber_summer
-        ///cerber_whirlwind
-        ///cgbird_witch
-        ///chen_nian
-        ///c [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///cerber_whirlwin [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         public static string 干员皮肤代号 {
             get {

@@ -1,4 +1,4 @@
-[最后更新:2022年5月2日]
+[最后更新:2022年6月5日]
 aglina_boc
 aglina_summer
 amiya_epoque
@@ -56,6 +56,7 @@ folnic_wild
 frostl_boc
 ghost_winter
 glacus_ghost
+glady_boc
 glassb_kitchen
 gnosis_boc
 grani_epoque
