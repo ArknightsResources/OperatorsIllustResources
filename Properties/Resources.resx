@@ -322,6 +322,9 @@
   <data name="operator_image_dusk" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_dusk.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="operator_image_ebnhlz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_ebnhlz.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="operator_image_elysm" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_elysm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -426,6 +429,9 @@
   </data>
   <data name="operator_image_haak" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_haak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_hbisc2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_hbisc2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="operator_image_headbr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_headbr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -627,6 +633,9 @@
   </data>
   <data name="operator_image_phenxi" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_phenxi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_pianst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_pianst.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="operator_image_pinecn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_pinecn.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

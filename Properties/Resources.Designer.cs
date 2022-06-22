@@ -733,6 +733,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_ebnhlz {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_ebnhlz", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_elysm {
             get {
                 object obj = ResourceManager.GetObject("operator_image_elysm", resourceCulture);
@@ -1076,6 +1086,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_haak {
             get {
                 object obj = ResourceManager.GetObject("operator_image_haak", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_hbisc2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_hbisc2", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -1746,6 +1766,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_phenxi {
             get {
                 object obj = ResourceManager.GetObject("operator_image_phenxi", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_pianst {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_pianst", resourceCulture);
                 return ((byte[])(obj));
             }
         }
