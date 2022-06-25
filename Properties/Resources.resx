@@ -763,6 +763,9 @@
   <data name="operator_image_skin_ansel" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_ansel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="operator_image_skin_aosta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_aosta.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="operator_image_skin_aprl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_aprl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -865,6 +868,9 @@
   <data name="operator_image_skin_fang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_fang.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="operator_image_skin_flamtl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_flamtl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="operator_image_skin_flint" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_flint.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -939,6 +945,9 @@
   </data>
   <data name="operator_image_skin_kafka" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_kafka.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_kirara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_kirara.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="operator_image_skin_kroos" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_kroos.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

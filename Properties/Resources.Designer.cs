@@ -2203,6 +2203,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_skin_aosta {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_aosta", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_skin_aprl {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_aprl", resourceCulture);
@@ -2543,6 +2553,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_skin_flamtl {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_flamtl", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_skin_flint {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_flint", resourceCulture);
@@ -2786,6 +2806,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_skin_kafka {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_kafka", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_skin_kirara {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_kirara", resourceCulture);
                 return ((byte[])(obj));
             }
         }

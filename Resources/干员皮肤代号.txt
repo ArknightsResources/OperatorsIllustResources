@@ -1,4 +1,4 @@
-[最后更新:2022年6月5日]
+[最后更新:2022年6月25日]
 aglina_boc
 aglina_summer
 amiya_epoque
@@ -8,6 +8,7 @@ amgoat_summer
 angel_kfc
 angel_wild
 ansel_summer
+aosta_game
 aprl_wild
 archet_shining
 ardign_snow
@@ -48,6 +49,7 @@ ethan_epoque
 excu_boc
 f12yin_boc
 fang_winter
+flamtl_game
 flint_boc
 flower_daily
 flower_epoque
@@ -79,6 +81,7 @@ jesica_nian
 jesica_sweep
 jesica_wild
 kafka_snow
+kirara_game
 kroos_witch
 lava2_nian
 lionhd_wild
