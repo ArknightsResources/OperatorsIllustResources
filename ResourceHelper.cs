@@ -33,7 +33,7 @@ namespace ArknightsResources.Operators.Resources
         public override byte[] GetOperatorImage(OperatorIllustrationInfo illustrationInfo)
         {
             string name;
-            string fileName = illustrationInfo.ImageCodename.Split('_')[0];
+            string fileName = illustrationInfo.ImageCodename.Split('_')[0].Split('#')[0];
             if (illustrationInfo.Type == OperatorType.Skin)
             {
                 name = $"operator_image_skin_{fileName}";
