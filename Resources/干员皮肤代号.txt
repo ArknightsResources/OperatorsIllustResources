@@ -22,11 +22,13 @@ beagle_boc
 beewax_epoque
 bibeak_winter
 billro_snow
+billro_summer
 blackd_as
 blackd_winter
 blemsh_witch
 bldsk_witch
 bldsk_summer
+blkngt_summer
 bluep_marthe
 bpipe_race
 brownb_kitchen
@@ -49,6 +51,7 @@ ethan_epoque
 excu_boc
 f12yin_boc
 fang_winter
+flameb_summer
 flamtl_game
 flint_boc
 flower_daily
