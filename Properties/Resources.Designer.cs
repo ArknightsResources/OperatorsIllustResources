@@ -2183,6 +2183,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_skin_adnach {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_adnach", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_skin_aglina {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_aglina", resourceCulture);
@@ -4312,7 +4322,7 @@ namespace ArknightsResources.Operators.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 [最后更新:2022年6月25日]
+        ///   查找类似 adnach_sale
         ///aglina_boc
         ///aglina_summer
         ///amiya_epoque
@@ -4349,7 +4359,7 @@ namespace ArknightsResources.Operators.Resources.Properties {
         ///bstalk_snow
         ///cammou_witch
         ///cast3_summer
-        ///cc [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        ///ccheal_e [字符串的其余部分被截断]&quot;; 的本地化字符串。
         /// </summary>
         public static string 干员皮肤代号 {
             get {
