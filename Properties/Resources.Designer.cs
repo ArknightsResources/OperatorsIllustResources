@@ -4131,27 +4131,6 @@ namespace ArknightsResources.Operators.Resources.Properties {
         }
         
         /// <summary>
-        ///   查找类似 &lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-        ///&lt;xs:schema id=&quot;Operators&quot;
-        ///    targetNamespace=&quot;http://schema.livestudio.com/Operators.xsd&quot;
-        ///    elementFormDefault=&quot;qualified&quot;
-        ///    xmlns=&quot;http://schema.livestudio.com/Operators.xsd&quot;
-        ///    xmlns:mstns=&quot;http://schema.livestudio.com/Operators.xsd&quot;
-        ///    xmlns:xs=&quot;http://www.w3.org/2001/XMLSchema&quot;
-        ///&gt;
-        ///  &lt;xs:element name=&quot;OperatorsList&quot; type=&quot;OperatorsList&quot;/&gt;
-        ///
-        ///  &lt;xs:complexType name=&quot;OperatorsList&quot;&gt;
-        ///    &lt;xs:sequence maxOccurs=&quot;unbounded&quot;&gt;
-        ///          &lt;xs:element name=&quot;Op [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        public static string OperatorsSchema {
-            get {
-                return ResourceManager.GetString("OperatorsSchema", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
         public static byte[] token_10000_silent_healrb {

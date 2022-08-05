@@ -1,12 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Resources;
 using System.Text;
+using System.Text.Encodings.Web;
+using System.Text.Json;
+using System.Text.Json.Serialization;
+using System.Text.Unicode;
 using System.Threading.Tasks;
-using System.Xml.Linq;
-using System.Xml.Serialization;
 using ArknightsResources.CustomResourceHelpers;
 using ArknightsResources.Operators.Models;
 using ArknightsResources.Utility;
@@ -179,59 +182,104 @@ namespace ArknightsResources.Operators.Resources
         }
 
         /// <inheritdoc/>
-        public override Operator[] GetAllOperators(CultureInfo cultureInfo)
+        public override OperatorsList GetAllOperators(CultureInfo cultureInfo)
         {
             return GetAllOperatorsInternal(cultureInfo);
         }
 
         /// <inheritdoc/>
-        public override async Task<Operator[]> GetAllOperatorsAsync(CultureInfo cultureInfo)
+        public override async Task<OperatorsList> GetAllOperatorsAsync(CultureInfo cultureInfo)
         {
             return await Task.Run(() => GetAllOperatorsInternal(cultureInfo));
         }
 
-        private static Operator GetOperatorInternal(string operatorCodename, CultureInfo cultureInfo)
+        private static Operator GetOperatorInternal(string operatorName, CultureInfo cultureInfo)
         {
-            string opXmlStrings = OperatorResources.ResourceManager.GetString("OperatorsXML", cultureInfo);
-
-            XDocument xDocument = XDocument.Parse(opXmlStrings);
-            var operators = (from XElement element in xDocument.Root.Elements()
-                             where element.Attribute("Name").Value == operatorCodename
-                             select element).AsParallel();
-            XElement opXML = operators.First();
-
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(Operator), "http://schema.livestudio.com/Operators.xsd");
-            Operator op = (Operator)xmlSerializer.Deserialize(opXML.CreateReader());
-            return op;
-        }
-
-        private static Operator GetOperatorWithCodenameInternal(string operatorCodename, CultureInfo cultureInfo)
-        {
-            string opXmlStrings = OperatorResources.ResourceManager.GetString("OperatorsXML", cultureInfo);
-
-            XDocument xDocument = XDocument.Parse(opXmlStrings);
-            var operators = (from XElement element in xDocument.Root.Elements()
-                             where element.Attribute("ImageCodename").Value == operatorCodename
-                             select element).AsParallel();
-            XElement opXML = operators.First();
-
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(Operator), "http://schema.livestudio.com/Operators.xsd");
-            Operator op = (Operator)xmlSerializer.Deserialize(opXML.CreateReader());
-            return op;
-        }
-
-        private static Operator[] GetAllOperatorsInternal(CultureInfo cultureInfo)
-        {
-            string operatorsXmlString = OperatorResources.ResourceManager.GetString("OperatorsXML", cultureInfo);
-
-            XmlSerializer xmlSerializer = new XmlSerializer(typeof(OperatorsList), "http://schema.livestudio.com/Operators.xsd");
-            using (MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(operatorsXmlString)))
+            byte[] opJson = (byte[])OperatorResources.ResourceManager.GetObject("operators", cultureInfo);
+            Operator op = null;
+            using (JsonDocument document = JsonDocument.Parse(opJson))
             {
-                using (StreamReader reader = new StreamReader(stream, Encoding.UTF8))
+                JsonElement root = document.RootElement;
+                JsonElement operatorsElement = root.GetProperty("Operators");
+                foreach (JsonProperty item in operatorsElement.EnumerateObject())
                 {
-                    return ((OperatorsList)xmlSerializer.Deserialize(reader)).OperatorList;
+                    bool enumComplete = false;
+                    foreach (JsonProperty item2 in from JsonProperty item2 in item.Value.EnumerateObject()
+                                                    where item2.Name == "Name" && item2.Value.GetString() == operatorName
+                                                    select item2)
+                    {
+                        op = item.Value.Deserialize<Operator>(new JsonSerializerOptions()
+                        {
+                            WriteIndented = true,
+                            Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
+                            Converters =
+                            {
+                                new JsonStringEnumConverter()
+                            }
+                        });
+                        enumComplete = true;
+                        break;
+                    }
+
+                    if (enumComplete)
+                    {
+                        break;
+                    }
                 }
             }
+            return op;
+        }
+
+        private static Operator GetOperatorWithCodenameInternal(string operatorImageCodename, CultureInfo cultureInfo)
+        {
+            byte[] opJson = (byte[])OperatorResources.ResourceManager.GetObject("operators", cultureInfo);
+            Operator op = null;
+            using (JsonDocument document = JsonDocument.Parse(opJson))
+            {
+                JsonElement root = document.RootElement;
+                JsonElement operatorsElement = root.GetProperty("Operators");
+                foreach (JsonProperty item in operatorsElement.EnumerateObject())
+                {
+                    bool enumComplete = false;
+                    foreach (JsonProperty item2 in from JsonProperty item2 in item.Value.EnumerateObject()
+                                                    where item2.Name == "ImageCodename" && item2.Value.GetString() == operatorImageCodename
+                                                    select item2)
+                    {
+                        op = item.Value.Deserialize<Operator>(new JsonSerializerOptions()
+                        {
+                            WriteIndented = true,
+                            Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
+                            Converters =
+                            {
+                                new JsonStringEnumConverter()
+                            }
+                        });
+                        enumComplete = true;
+                        break;
+                    }
+
+                    if (enumComplete)
+                    {
+                        break;
+                    }
+                }
+            }
+            return op;
+        }
+
+        private static OperatorsList GetAllOperatorsInternal(CultureInfo cultureInfo)
+        {
+            byte[] operators = (byte[])OperatorResources.ResourceManager.GetObject("operators", cultureInfo);
+            OperatorsList operatorsList = JsonSerializer.Deserialize<OperatorsList>(operators, new JsonSerializerOptions()
+            {
+                WriteIndented = true,
+                Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
+                Converters =
+                            {
+                                new JsonStringEnumConverter()
+                            }
+            });
+            return operatorsList;
         }
     }
 }
