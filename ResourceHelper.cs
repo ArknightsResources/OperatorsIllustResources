@@ -192,7 +192,7 @@ namespace ArknightsResources.Operators.Resources
 
         private static Operator GetOperatorInternal(string operatorCodename, CultureInfo cultureInfo)
         {
-            string opXmlStrings = OperatorResources.ResourceManager.GetString("Operators", cultureInfo);
+            string opXmlStrings = OperatorResources.ResourceManager.GetString("OperatorsXML", cultureInfo);
 
             XDocument xDocument = XDocument.Parse(opXmlStrings);
             var operators = (from XElement element in xDocument.Root.Elements()
@@ -207,7 +207,7 @@ namespace ArknightsResources.Operators.Resources
 
         private static Operator GetOperatorWithCodenameInternal(string operatorCodename, CultureInfo cultureInfo)
         {
-            string opXmlStrings = OperatorResources.ResourceManager.GetString("Operators", cultureInfo);
+            string opXmlStrings = OperatorResources.ResourceManager.GetString("OperatorsXML", cultureInfo);
 
             XDocument xDocument = XDocument.Parse(opXmlStrings);
             var operators = (from XElement element in xDocument.Root.Elements()
@@ -222,7 +222,7 @@ namespace ArknightsResources.Operators.Resources
 
         private static Operator[] GetAllOperatorsInternal(CultureInfo cultureInfo)
         {
-            string operatorsXmlString = OperatorResources.ResourceManager.GetString("Operators", cultureInfo);
+            string operatorsXmlString = OperatorResources.ResourceManager.GetString("OperatorsXML", cultureInfo);
 
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(OperatorsList), "http://schema.livestudio.com/Operators.xsd");
             using (MemoryStream stream = new MemoryStream(Encoding.UTF8.GetBytes(operatorsXmlString)))
