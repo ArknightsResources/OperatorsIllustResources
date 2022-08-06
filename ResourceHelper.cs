@@ -108,6 +108,10 @@ namespace ArknightsResources.Operators.Resources
             {
                 throw new ArgumentException($"提供的语言文化\"{cultureInfo}\"无效", ex);
             }
+            catch (JsonException ex)
+            {
+                throw new ArgumentException($"提供的语言文化\"{cultureInfo}\"无效", ex);
+            }
         }
 
         /// <summary>
@@ -132,24 +136,28 @@ namespace ArknightsResources.Operators.Resources
             {
                 throw new ArgumentException($"参数\"{operatorName}\"无效", ex);
             }
+            catch (JsonException ex)
+            {
+                throw new ArgumentException($"提供的语言文化\"{cultureInfo}\"无效", ex);
+            }
         }
 
         /// <inheritdoc/>
         /// <exception cref="ArgumentException"/>
-        public override Operator GetOperatorWithCodename(string operatorCodename, CultureInfo cultureInfo)
+        public override Operator GetOperatorWithImageCodename(string operatorImageCodename, CultureInfo cultureInfo)
         {
-            if (string.IsNullOrWhiteSpace(operatorCodename))
+            if (string.IsNullOrWhiteSpace(operatorImageCodename))
             {
-                throw new ArgumentException($"“{nameof(operatorCodename)}”不能为 null 或空白。", nameof(operatorCodename));
+                throw new ArgumentException($"“{nameof(operatorImageCodename)}”不能为 null 或空白。", nameof(operatorImageCodename));
             }
 
             try
             {
-                return GetOperatorWithCodenameInternal(operatorCodename, cultureInfo);
+                return GetOperatorWithCodenameInternal(operatorImageCodename, cultureInfo);
             }
             catch (InvalidOperationException ex)
             {
-                throw new ArgumentException($"参数\"{operatorCodename}\"无效", ex);
+                throw new ArgumentException($"参数\"{operatorImageCodename}\"无效", ex);
             }
             catch (ArgumentNullException ex)
             {
@@ -160,24 +168,24 @@ namespace ArknightsResources.Operators.Resources
         /// <summary>
         /// 通过干员名称获取其<see cref="Operator"/>对象
         /// </summary>
-        /// <param name="operatorCodename">干员名称</param>
+        /// <param name="operatorImageCodename">干员名称</param>
         /// <param name="cultureInfo"><see cref="Operator"/>对象的语言文化</param>
         /// <returns>一个<see cref="Operator"/>对象</returns>
         /// <exception cref="ArgumentException"/>
-        public async Task<Operator> GetOperatorWithCodenameAsync(string operatorCodename, CultureInfo cultureInfo)
+        public async Task<Operator> GetOperatorWithImageCodenameAsync(string operatorImageCodename, CultureInfo cultureInfo)
         {
-            if (string.IsNullOrWhiteSpace(operatorCodename))
+            if (string.IsNullOrWhiteSpace(operatorImageCodename))
             {
-                throw new ArgumentException($"“{nameof(operatorCodename)}”不能为 null 或空白。", nameof(operatorCodename));
+                throw new ArgumentException($"“{nameof(operatorImageCodename)}”不能为 null 或空白。", nameof(operatorImageCodename));
             }
 
             try
             {
-                return await Task.Run(() => GetOperatorWithCodenameInternal(operatorCodename, cultureInfo));
+                return await Task.Run(() => GetOperatorWithCodenameInternal(operatorImageCodename, cultureInfo));
             }
             catch (InvalidOperationException ex)
             {
-                throw new ArgumentException($"参数\"{operatorCodename}\"无效", ex);
+                throw new ArgumentException($"参数\"{operatorImageCodename}\"无效", ex);
             }
         }
 
