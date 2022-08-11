@@ -41,12 +41,14 @@ cerber_whirlwind
 cgbird_witch
 chen_nian
 cqbw_epoque
+crow_summer
 cuttle_epoque
 demkni_boc
 demkni_test
 doberm_epoque
 dusk_nian
 elysm_snow
+elysm_summer
 ethan_epoque
 excu_boc
 f12yin_boc
@@ -158,6 +160,7 @@ sqrrel_ghost
 strong_summer
 sunbr_summer
 surtr_it
+surtr_summer
 susuro_summer
 svrash_snow
 svrash_summer
