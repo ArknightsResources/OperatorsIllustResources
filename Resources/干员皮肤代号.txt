@@ -1,4 +1,5 @@
 adnach_sale
+akafyu_epoque
 aglina_boc
 aglina_summer
 amiya_epoque
@@ -31,6 +32,7 @@ bldsk_summer
 blkngt_summer
 bluep_marthe
 bpipe_race
+broca_marthe
 brownb_kitchen
 bstalk_snow
 cammou_witch
@@ -52,6 +54,7 @@ elysm_summer
 ethan_epoque
 excu_boc
 f12yin_boc
+f12yin_epoque
 fang_winter
 flameb_summer
 flamtl_game
@@ -130,6 +133,7 @@ prove_summer
 prove_wild
 red_summer
 robin_epoque
+robrta_summer
 rope_summer
 rope_witch
 scave_striker
@@ -176,6 +180,7 @@ tknogi_epoque
 tomimi_summer
 tuye_epoque
 utage_summer
+utage_epoque
 vigna_as
 vigna_summer
 vodfox_witch
