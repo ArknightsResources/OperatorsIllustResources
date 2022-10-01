@@ -95,6 +95,7 @@ lava2_nian
 lionhd_wild
 lionhd_snow
 lisa_wild
+lisa_lxh
 liskam_nian
 liskam_striker
 mantic_epoque
@@ -134,6 +135,7 @@ prove_wild
 red_summer
 robin_epoque
 robrta_summer
+rockr_lxh
 rope_summer
 rope_witch
 scave_striker
@@ -162,6 +164,7 @@ spikes_winter
 spot_boc
 sqrrel_ghost
 strong_summer
+stward_sale
 sunbr_summer
 surtr_it
 surtr_summer
@@ -188,6 +191,7 @@ waaifu_whirlwind
 weedy_snow
 whispr_nian
 whitew_boc
+wildmn_epoque
 yak_summer
 yuki_boc
 zebra_wild

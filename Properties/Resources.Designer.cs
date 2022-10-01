@@ -1203,6 +1203,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_highmo {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_highmo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_hmau {
             get {
                 object obj = ResourceManager.GetObject("operator_image_hmau", resourceCulture);
@@ -1476,6 +1486,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_lmlee {
             get {
                 object obj = ResourceManager.GetObject("operator_image_lmlee", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_lolxh {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_lolxh", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -3343,6 +3363,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_skin_rockr {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_rockr", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_skin_rope {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_rope", resourceCulture);
@@ -3573,6 +3603,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_skin_stward {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_stward", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_skin_sunbr {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_sunbr", resourceCulture);
@@ -3776,6 +3816,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_skin_whitew {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_whitew", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_skin_wildmn {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_wildmn", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -4241,6 +4291,52 @@ namespace ArknightsResources.Operators.Resources.Properties {
         }
         
         /// <summary>
+        ///   查找类似 adnach_sale
+        ///akafyu_epoque
+        ///aglina_boc
+        ///aglina_summer
+        ///amiya_epoque
+        ///amiya_test
+        ///amiya_winter
+        ///amgoat_summer
+        ///angel_kfc
+        ///angel_wild
+        ///ansel_summer
+        ///aosta_game
+        ///aprl_wild
+        ///archet_shining
+        ///ardign_snow
+        ///asbest_whirlwind
+        ///ash_rainbow6
+        ///astesi_epoque
+        ///astesi_shining
+        ///aurora_boc
+        ///ayer_boc
+        ///beagle_boc
+        ///beewax_epoque
+        ///bibeak_winter
+        ///billro_snow
+        ///billro_summer
+        ///blackd_as
+        ///blackd_winter
+        ///blemsh_witch
+        ///bldsk_witch
+        ///bldsk_summer
+        ///blkngt_summer
+        ///bluep_marthe
+        ///bpipe_race
+        ///broca_marthe
+        ///brownb_kitchen
+        ///bstalk_snow
+        ///cammou_ [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        public static string operator_skin_codename {
+            get {
+                return ResourceManager.GetString("operator_skin_codename", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
         public static byte[] token_10000_silent_healrb {
@@ -4407,52 +4503,6 @@ namespace ArknightsResources.Operators.Resources.Properties {
             get {
                 object obj = ResourceManager.GetObject("token_10021_blkngt_hypnos", resourceCulture);
                 return ((byte[])(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   查找类似 adnach_sale
-        ///akafyu_epoque
-        ///aglina_boc
-        ///aglina_summer
-        ///amiya_epoque
-        ///amiya_test
-        ///amiya_winter
-        ///amgoat_summer
-        ///angel_kfc
-        ///angel_wild
-        ///ansel_summer
-        ///aosta_game
-        ///aprl_wild
-        ///archet_shining
-        ///ardign_snow
-        ///asbest_whirlwind
-        ///ash_rainbow6
-        ///astesi_epoque
-        ///astesi_shining
-        ///aurora_boc
-        ///ayer_boc
-        ///beagle_boc
-        ///beewax_epoque
-        ///bibeak_winter
-        ///billro_snow
-        ///billro_summer
-        ///blackd_as
-        ///blackd_winter
-        ///blemsh_witch
-        ///bldsk_witch
-        ///bldsk_summer
-        ///blkngt_summer
-        ///bluep_marthe
-        ///bpipe_race
-        ///brownb_kitchen
-        ///bstalk_snow
-        ///cammou_witch
-        ///cast3_s [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        public static string 干员皮肤代号 {
-            get {
-                return ResourceManager.GetString("干员皮肤代号", resourceCulture);
             }
         }
     }
