@@ -693,6 +693,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_dagda {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_dagda", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_deepcl {
             get {
                 object obj = ResourceManager.GetObject("operator_image_deepcl", resourceCulture);
@@ -1303,6 +1313,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_ironmn {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_ironmn", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_jaksel {
             get {
                 object obj = ResourceManager.GetObject("operator_image_jaksel", resourceCulture);
@@ -1326,6 +1346,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_jnight {
             get {
                 object obj = ResourceManager.GetObject("operator_image_jnight", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_judge {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_judge", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -1506,6 +1536,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_lumen {
             get {
                 object obj = ResourceManager.GetObject("operator_image_lumen", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_lunacu {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_lunacu", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -1853,6 +1893,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_peper {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_peper", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_phatom {
             get {
                 object obj = ResourceManager.GetObject("operator_image_phatom", resourceCulture);
@@ -1966,6 +2016,26 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_pudd {
             get {
                 object obj = ResourceManager.GetObject("operator_image_pudd", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_qanik {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_qanik", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_quartz {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_quartz", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -2833,6 +2903,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_skin_glider {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_glider", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_skin_gnosis {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_gnosis", resourceCulture);
@@ -2963,6 +3043,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_skin_iris {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_iris", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_skin_jaksel {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_jaksel", resourceCulture);
@@ -2986,6 +3076,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_skin_kafka {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_kafka", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_skin_kazema {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_kazema", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -3046,6 +3146,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_skin_liskam {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_liskam", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_skin_lmlee {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_lmlee", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -3193,6 +3303,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_skin_nearl2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_nearl2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_skin_nian {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_nian", resourceCulture);
@@ -3246,6 +3366,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_skin_panda {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_panda", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_skin_pasngr {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_pasngr", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -3333,6 +3463,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_skin_quercu {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_quercu", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_skin_red {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_red", resourceCulture);
@@ -3376,6 +3516,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_skin_rope {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_rope", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_skin_rosmon {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_rosmon", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -3556,6 +3706,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_skin_sora {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_sora", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_skin_sora1 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_sora1", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -4083,6 +4243,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_texas2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_texas2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_therex {
             get {
                 object obj = ResourceManager.GetObject("operator_image_therex", resourceCulture);
@@ -4143,6 +4313,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_totter {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_totter", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_tuye {
             get {
                 object obj = ResourceManager.GetObject("operator_image_tuye", resourceCulture);
@@ -4156,6 +4336,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_utage {
             get {
                 object obj = ResourceManager.GetObject("operator_image_utage", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_vigil {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_vigil", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -4459,6 +4649,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] token_10012_rosmon_shield {
+            get {
+                object obj = ResourceManager.GetObject("token_10012_rosmon_shield", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] token_10013_robin_mine {
             get {
                 object obj = ResourceManager.GetObject("token_10013_robin_mine", resourceCulture);
@@ -4492,6 +4692,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] token_10017_skadi2_dedant {
             get {
                 object obj = ResourceManager.GetObject("token_10017_skadi2_dedant", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] token_10019_nearl2_sword {
+            get {
+                object obj = ResourceManager.GetObject("token_10019_nearl2_sword", resourceCulture);
                 return ((byte[])(obj));
             }
         }

@@ -68,6 +68,7 @@ ghost_winter
 glacus_ghost
 glady_boc
 glassb_kitchen
+glider_epoque
 gnosis_boc
 grani_epoque
 gravel_winter
@@ -84,11 +85,13 @@ huang_as
 ifrit_kfc
 ifrit_summer
 indigo_nian
+iris_witch
 jaksel_whirlwind
 jesica_nian
 jesica_sweep
 jesica_wild
 kafka_snow
+kazema_witch
 kirara_game
 kroos_witch
 lava2_nian
@@ -98,6 +101,7 @@ lisa_wild
 lisa_lxh
 liskam_nian
 liskam_striker
+lmlee_witch
 mantic_epoque
 mberry_epoque
 medic2_boc
@@ -115,6 +119,7 @@ mudrok_ambienceSynesthesia
 myrrh_wild
 myrtle_epoque
 nearl_summer
+nearl2_epoque
 nian_nian
 nightm_epoque
 nothin_nian
@@ -122,6 +127,7 @@ otter_ghost
 pallas_epoque
 panda_marthe
 panda_nian
+pasngr_epoque
 peacok_game
 phatom_ghost
 phatom_sale
@@ -132,12 +138,14 @@ poca_epoque
 podego_epoque
 prove_summer
 prove_wild
+quercu_epoque
 red_summer
 robin_epoque
 robrta_summer
 rockr_lxh
 rope_summer
 rope_witch
+rosmon_epoque
 scave_striker
 sddrag_ambienceSynesthesia
 shining_summer
@@ -160,6 +168,7 @@ snakek_wild
 snsant_witch
 sophia_epoque
 sora_summer
+sora_epoque
 spikes_winter
 spot_boc
 sqrrel_ghost
