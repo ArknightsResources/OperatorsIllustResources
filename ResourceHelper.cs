@@ -64,6 +64,7 @@ namespace ArknightsResources.Operators.Resources
         /// <exception cref="System.Resources.MissingSatelliteAssemblyException"/>
         /// <param name="illustrationInfo">干员的立绘信息</param>
         /// <returns>一个Image对象,其中包含了干员的图片信息</returns>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "")]
         public Image<Bgra32> GetOperatorImageReturnImage(OperatorIllustrationInfo illustrationInfo)
         {
             string name;
@@ -121,6 +122,7 @@ namespace ArknightsResources.Operators.Resources
         /// <param name="cultureInfo"><see cref="Operator"/>对象的语言文化</param>
         /// <returns>一个<see cref="Operator"/>对象</returns>
         /// <exception cref="ArgumentException"/>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "")]
         public async Task<Operator> GetOperatorAsync(string operatorName, CultureInfo cultureInfo)
         {
             if (string.IsNullOrWhiteSpace(operatorName))
@@ -172,6 +174,7 @@ namespace ArknightsResources.Operators.Resources
         /// <param name="cultureInfo"><see cref="Operator"/>对象的语言文化</param>
         /// <returns>一个<see cref="Operator"/>对象</returns>
         /// <exception cref="ArgumentException"/>
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "")]
         public async Task<Operator> GetOperatorWithImageCodenameAsync(string operatorImageCodename, CultureInfo cultureInfo)
         {
             if (string.IsNullOrWhiteSpace(operatorImageCodename))
