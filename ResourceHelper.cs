@@ -129,7 +129,7 @@ namespace ArknightsResources.Operators.Resources
             {
                 throw new ArgumentException($"“{nameof(operatorName)}”不能为 null 或空白。", nameof(operatorName));
             }
-
+            
             try
             {
                 return await Task.Run(() => GetOperatorInternal(operatorName, cultureInfo));
