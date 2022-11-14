@@ -68,4 +68,8 @@
       <Generator>PublicResXFileCodeGenerator</Generator>
     </EmbeddedResource>
   </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\Images\Spine\" />
+  </ItemGroup>
 </Project>
