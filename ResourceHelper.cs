@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.IO;
 using System.Linq;
 using System.Resources;
-using System.Text;
 using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -22,18 +19,29 @@ namespace ArknightsResources.Operators.Resources
     /// <summary>
     /// 为ArknightsResources.Operators.Resources的资源访问提供帮助的类
     /// </summary>
+#if NET7_0_OR_GREATER
+    public class ResourceHelper : IOperatorResourceHelper
+#else
     public class ResourceHelper : OperatorResourceHelper
+#endif
+
     {
+#if NETSTANDARD2_0_OR_GREATER
         /// <summary>
         /// <seealso cref="ResourceHelper"/>的实例
         /// </summary>
         public static readonly ResourceHelper Instance = new ResourceHelper();
+#endif
 
         /// <inheritdoc/>
         /// <exception cref="ArgumentException"/>
         /// <exception cref="MissingManifestResourceException"/>
         /// <exception cref="MissingSatelliteAssemblyException"/>
+#if NET7_0_OR_GREATER
+        public static byte[] GetOperatorImage(OperatorIllustrationInfo illustrationInfo)
+#else
         public override byte[] GetOperatorImage(OperatorIllustrationInfo illustrationInfo)
+#endif
         {
             string name;
             string fileName = illustrationInfo.ImageCodename.Split('_')[0].Split('#')[0];
@@ -90,7 +98,11 @@ namespace ArknightsResources.Operators.Resources
 
         /// <inheritdoc/>
         /// <exception cref="ArgumentException"/>
+#if NET7_0_OR_GREATER
+        public static Operator GetOperator(string operatorName, CultureInfo cultureInfo)
+#else
         public override Operator GetOperator(string operatorName, CultureInfo cultureInfo)
+#endif
         {
             if (string.IsNullOrWhiteSpace(operatorName))
             {
@@ -146,7 +158,11 @@ namespace ArknightsResources.Operators.Resources
 
         /// <inheritdoc/>
         /// <exception cref="ArgumentException"/>
+#if NET7_0_OR_GREATER
+        public static Operator GetOperatorWithImageCodename(string operatorImageCodename, CultureInfo cultureInfo)
+#else
         public override Operator GetOperatorWithImageCodename(string operatorImageCodename, CultureInfo cultureInfo)
+#endif
         {
             if (string.IsNullOrWhiteSpace(operatorImageCodename))
             {
@@ -193,13 +209,21 @@ namespace ArknightsResources.Operators.Resources
         }
 
         /// <inheritdoc/>
+#if NET7_0_OR_GREATER
+        public static OperatorsList GetAllOperators(CultureInfo cultureInfo)
+#else
         public override OperatorsList GetAllOperators(CultureInfo cultureInfo)
+#endif
         {
             return GetAllOperatorsInternal(cultureInfo);
         }
 
         /// <inheritdoc/>
+#if NET7_0_OR_GREATER
+        public static async Task<OperatorsList> GetAllOperatorsAsync(CultureInfo cultureInfo)
+#else
         public override async Task<OperatorsList> GetAllOperatorsAsync(CultureInfo cultureInfo)
+#endif
         {
             return await Task.Run(() => GetAllOperatorsInternal(cultureInfo));
         }
