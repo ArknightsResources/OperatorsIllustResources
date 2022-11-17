@@ -5,28 +5,22 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <EnableNETAnalyzers>True</EnableNETAnalyzers>
     <Authors>Baka632</Authors>
-    <DebugType>portable</DebugType>
+	<DebugType>embedded</DebugType>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Copyright>Copyright (c) 2022 Baka632</Copyright>
     <PackageProjectUrl>https://github.com/Baka632/ArknightsResources</PackageProjectUrl>
     <RepositoryUrl>https://dev.azure.com/LiveBakaStudio/ArknightsResources/_git/ArknightsResources?path=/ArknightsResources.Operators.Resources</RepositoryUrl>
     <PackageTags>Arknights;明日方舟</PackageTags>
-    <IncludeSymbols>False</IncludeSymbols>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <PackageIcon>icon.png</PackageIcon>
-    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
     <Description>Provides resources about Arknights Operators</Description>
     <IsTrimmable>true</IsTrimmable>
   </PropertyGroup>
 
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DebugType>embedded</DebugType>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DebugType>embedded</DebugType>
+  <PropertyGroup Condition="'$(TF_BUILD)' == 'true'">
+      <ContinuousIntegrationBuild>true</ContinuousIntegrationBuild>
   </PropertyGroup>
 
   <ItemGroup>
