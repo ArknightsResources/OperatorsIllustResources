@@ -63,6 +63,16 @@ namespace ArknightsResources.Operators.Resources
         }
 
         /// <inheritdoc/>
+#if NET7_0_OR_GREATER
+        public static async Task<byte[]> GetOperatorImageAsync(OperatorIllustrationInfo illustrationInfo)
+#else
+        public override async Task<byte[]> GetOperatorImageAsync(OperatorIllustrationInfo illustrationInfo)
+#endif
+        {
+            return await Task.Run(() => GetOperatorImage(illustrationInfo));
+        }
+
+        /// <inheritdoc/>
         /// <exception cref="ArgumentException"/>
 #if NET7_0_OR_GREATER
         public static Operator GetOperator(string operatorName, CultureInfo cultureInfo)
@@ -100,8 +110,11 @@ namespace ArknightsResources.Operators.Resources
         /// <param name="cultureInfo"><see cref="Operator"/>对象的语言文化</param>
         /// <returns>一个<see cref="Operator"/>对象</returns>
         /// <exception cref="ArgumentException"/>
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "")]
-        public async Task<Operator> GetOperatorAsync(string operatorName, CultureInfo cultureInfo)
+#if NET7_0_OR_GREATER
+        public static async Task<Operator> GetOperatorAsync(string operatorName, CultureInfo cultureInfo)
+#else
+        public override async Task<Operator> GetOperatorAsync(string operatorName, CultureInfo cultureInfo)
+#endif
         {
             if (string.IsNullOrWhiteSpace(operatorName))
             {
@@ -156,8 +169,11 @@ namespace ArknightsResources.Operators.Resources
         /// <param name="cultureInfo"><see cref="Operator"/>对象的语言文化</param>
         /// <returns>一个<see cref="Operator"/>对象</returns>
         /// <exception cref="ArgumentException"/>
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "")]
-        public async Task<Operator> GetOperatorWithImageCodenameAsync(string operatorImageCodename, CultureInfo cultureInfo)
+#if NET7_0_OR_GREATER
+        public static async Task<Operator> GetOperatorWithImageCodenameAsync(string operatorImageCodename, CultureInfo cultureInfo)
+#else
+        public override async Task<Operator> GetOperatorWithImageCodenameAsync(string operatorImageCodename, CultureInfo cultureInfo)
+#endif
         {
             if (string.IsNullOrWhiteSpace(operatorImageCodename))
             {
