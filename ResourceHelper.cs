@@ -10,8 +10,6 @@ using System.Threading.Tasks;
 using ArknightsResources.CustomResourceHelpers;
 using ArknightsResources.Operators.Models;
 using ArknightsResources.Utility;
-using SixLabors.ImageSharp;
-using SixLabors.ImageSharp.PixelFormats;
 using OperatorResources = ArknightsResources.Operators.Resources.Properties.Resources;
 
 namespace ArknightsResources.Operators.Resources
@@ -26,7 +24,7 @@ namespace ArknightsResources.Operators.Resources
 #endif
 
     {
-#if NETSTANDARD2_0_OR_GREATER
+#if !NET7_0_OR_GREATER
         /// <summary>
         /// <seealso cref="ResourceHelper"/>的实例
         /// </summary>
@@ -61,38 +59,6 @@ namespace ArknightsResources.Operators.Resources
             }
 
             byte[] image = AssetBundleHelper.GetOperatorIllustration(value, illustrationInfo);
-            return image;
-        }
-
-        /// <summary>
-        /// 通过干员的立绘信息获取其图片
-        /// </summary>
-        /// <exception cref="ArgumentException"/>
-        /// <exception cref="System.Resources.MissingManifestResourceException"/>
-        /// <exception cref="System.Resources.MissingSatelliteAssemblyException"/>
-        /// <param name="illustrationInfo">干员的立绘信息</param>
-        /// <returns>一个Image对象,其中包含了干员的图片信息</returns>
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822", Justification = "")]
-        public Image<Bgra32> GetOperatorImageReturnImage(OperatorIllustrationInfo illustrationInfo)
-        {
-            string name;
-            string fileName = illustrationInfo.ImageCodename.Split('_')[0];
-            if (illustrationInfo.Type == OperatorType.Skin)
-            {
-                name = $"operator_image_skin_{fileName}";
-            }
-            else
-            {
-                name = $"operator_image_{fileName}";
-            }
-
-            byte[] value = (byte[])OperatorResources.ResourceManager.GetObject(name);
-            if (value is null)
-            {
-                throw new ArgumentException($@"使用给定的参数""{illustrationInfo}""时找不到资源");
-            }
-
-            Image<Bgra32> image = AssetBundleHelper.GetOperatorIllustrationReturnImage(value, illustrationInfo);
             return image;
         }
 
