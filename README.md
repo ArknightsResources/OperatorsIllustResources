@@ -1,1 +1,1 @@
-# ArknightsResources.Operators.Resources
+# ArknightsResources - Operators Resources
