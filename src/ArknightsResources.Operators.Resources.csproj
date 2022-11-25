@@ -10,7 +10,6 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <Copyright>Copyright (c) 2022 Baka632</Copyright>
     <PackageProjectUrl>https://github.com/Baka632/ArknightsResources</PackageProjectUrl>
-    <RepositoryUrl>https://dev.azure.com/LiveBakaStudio/ArknightsResources/_git/ArknightsResources?path=/ArknightsResources.Operators.Resources</RepositoryUrl>
     <PackageTags>Arknights;明日方舟</PackageTags>
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
@@ -34,6 +33,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="ArknightsResources.CustomResourceHelpers" Version="0.1.2-alpha" />
+    <PackageReference Include="ArknightsResources.Operators.Models" Version="0.1.0-alpha" />
+    <PackageReference Include="ArknightsResources.Utility" Version="0.1.0-alpha" />
     <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>

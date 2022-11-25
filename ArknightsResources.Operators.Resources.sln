@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33110.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArknightsResources.Operators.Resources", "src\ArknightsResources.Operators.Resources.csproj", "{A273CF23-96EA-4B81-81C2-E2A734A814F2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArknightsResources.Operators.Resources.Test", "test\ArknightsResources.Operators.Resources.Test.csproj", "{D19B8D80-6A94-4930-987B-154DF6756EF5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A273CF23-96EA-4B81-81C2-E2A734A814F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A273CF23-96EA-4B81-81C2-E2A734A814F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A273CF23-96EA-4B81-81C2-E2A734A814F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A273CF23-96EA-4B81-81C2-E2A734A814F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D19B8D80-6A94-4930-987B-154DF6756EF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D19B8D80-6A94-4930-987B-154DF6756EF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D19B8D80-6A94-4930-987B-154DF6756EF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D19B8D80-6A94-4930-987B-154DF6756EF5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {27CDFFAD-CD81-488B-AB6A-36117FC90927}
+	EndGlobalSection
+EndGlobal
