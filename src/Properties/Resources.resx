@@ -163,6 +163,9 @@
   <data name="operator_image_aosta" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_aosta.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="operator_image_apionr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_apionr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="operator_image_aprl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_aprl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

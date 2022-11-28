@@ -213,6 +213,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_apionr {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_apionr", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_aprl {
             get {
                 object obj = ResourceManager.GetObject("operator_image_aprl", resourceCulture);

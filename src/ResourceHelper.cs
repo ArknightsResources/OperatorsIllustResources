@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 using System.Resources;
+using System.Text;
 using System.Text.Encodings.Web;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -31,45 +33,63 @@ namespace ArknightsResources.Operators.Resources
         public static readonly ResourceHelper Instance = new ResourceHelper();
 #endif
 
+        /// <summary>
+        /// 获取干员图片代号与干员代号的映射表
+        /// </summary>
+        /// <param name="cultureInfo">干员代号所用语言</param>
+        /// <returns>Key为干员图片代号,Value为干员代号的Dictionary&lt;string, string&gt;</returns>
+#if NET7_0_OR_GREATER
+        public static Dictionary<string, string> GetOperatorImageCodenameMapping(CultureInfo cultureInfo)
+#else
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822:Mark members as static")]
+        public Dictionary<string, string> GetOperatorImageCodenameMapping(CultureInfo cultureInfo)
+#endif
+        {
+            byte[] stringByteArray = (byte[])OperatorResources.ResourceManager.GetObject("operator_image_codename_mapping", cultureInfo);
+            string jsonString = Encoding.UTF8.GetString(stringByteArray);
+            Dictionary<string, string> dict = JsonSerializer.Deserialize<Dictionary<string, string>>(jsonString);
+            return dict;
+        }
+
         /// <inheritdoc/>
         /// <exception cref="ArgumentException"/>
         /// <exception cref="MissingManifestResourceException"/>
         /// <exception cref="MissingSatelliteAssemblyException"/>
 #if NET7_0_OR_GREATER
-        public static byte[] GetOperatorImage(OperatorIllustrationInfo illustrationInfo)
+        public static byte[] GetOperatorImage(OperatorIllustrationInfo illustInfo)
 #else
-        public override byte[] GetOperatorImage(OperatorIllustrationInfo illustrationInfo)
+        public override byte[] GetOperatorImage(OperatorIllustrationInfo illustInfo)
 #endif
         {
-            string name;
-            string fileName = illustrationInfo.ImageCodename.Split('_')[0].Split('#')[0];
-            if (illustrationInfo.Type == OperatorType.Skin)
+            string fileName;
+            string imageCodename = illustInfo.ImageCodename.Split('_')[0].Split('#')[0];
+            if (illustInfo.Type == OperatorType.Skin)
             {
-                name = $"operator_image_skin_{fileName}";
+                fileName = $"operator_image_skin_{imageCodename}";
             }
             else
             {
-                name = $"operator_image_{fileName}";
+                fileName = $"operator_image_{imageCodename}";
             }
 
-            byte[] value = (byte[])OperatorResources.ResourceManager.GetObject(name);
-            if (value is null)
+            byte[] abPack = OperatorResources.ResourceManager.GetObject(fileName) as byte[];
+            if (abPack is null)
             {
-                throw new ArgumentException($@"使用给定的参数""{illustrationInfo}""时找不到资源");
+                throw new ArgumentException($@"使用给定的参数""{illustInfo}""时找不到资源");
             }
 
-            byte[] image = AssetBundleHelper.GetOperatorIllustration(value, illustrationInfo);
+            byte[] image = AssetBundleHelper.GetOperatorIllustration(abPack, illustInfo.ImageCodename, illustInfo.Type == OperatorType.Skin);
             return image;
         }
 
         /// <inheritdoc/>
 #if NET7_0_OR_GREATER
-        public static async Task<byte[]> GetOperatorImageAsync(OperatorIllustrationInfo illustrationInfo)
+        public static async Task<byte[]> GetOperatorImageAsync(OperatorIllustrationInfo illustInfo)
 #else
-        public override async Task<byte[]> GetOperatorImageAsync(OperatorIllustrationInfo illustrationInfo)
+        public override async Task<byte[]> GetOperatorImageAsync(OperatorIllustrationInfo illustInfo)
 #endif
         {
-            return await Task.Run(() => GetOperatorImage(illustrationInfo));
+            return await Task.Run(() => GetOperatorImage(illustInfo));
         }
 
         /// <inheritdoc/>
@@ -103,13 +123,7 @@ namespace ArknightsResources.Operators.Resources
             }
         }
 
-        /// <summary>
-        /// 通过干员名称获取其<see cref="Operator"/>对象
-        /// </summary>
-        /// <param name="operatorName">干员名称</param>
-        /// <param name="cultureInfo"><see cref="Operator"/>对象的语言文化</param>
-        /// <returns>一个<see cref="Operator"/>对象</returns>
-        /// <exception cref="ArgumentException"/>
+        /// <inheritdoc />
 #if NET7_0_OR_GREATER
         public static async Task<Operator> GetOperatorAsync(string operatorName, CultureInfo cultureInfo)
 #else
@@ -138,23 +152,23 @@ namespace ArknightsResources.Operators.Resources
         /// <inheritdoc/>
         /// <exception cref="ArgumentException"/>
 #if NET7_0_OR_GREATER
-        public static Operator GetOperatorWithImageCodename(string operatorImageCodename, CultureInfo cultureInfo)
+        public static Operator GetOperatorWithImageCodename(string imageCodename, CultureInfo cultureInfo)
 #else
-        public override Operator GetOperatorWithImageCodename(string operatorImageCodename, CultureInfo cultureInfo)
+        public override Operator GetOperatorWithImageCodename(string imageCodename, CultureInfo cultureInfo)
 #endif
         {
-            if (string.IsNullOrWhiteSpace(operatorImageCodename))
+            if (string.IsNullOrWhiteSpace(imageCodename))
             {
-                throw new ArgumentException($"“{nameof(operatorImageCodename)}”不能为 null 或空白。", nameof(operatorImageCodename));
+                throw new ArgumentException($"“{nameof(imageCodename)}”不能为 null 或空白。", nameof(imageCodename));
             }
 
             try
             {
-                return GetOperatorWithCodenameInternal(operatorImageCodename, cultureInfo);
+                return GetOperatorWithCodenameInternal(imageCodename, cultureInfo);
             }
             catch (InvalidOperationException ex)
             {
-                throw new ArgumentException($"参数\"{operatorImageCodename}\"无效", ex);
+                throw new ArgumentException($"参数\"{imageCodename}\"无效", ex);
             }
             catch (ArgumentNullException ex)
             {
@@ -162,31 +176,25 @@ namespace ArknightsResources.Operators.Resources
             }
         }
 
-        /// <summary>
-        /// 通过干员名称获取其<see cref="Operator"/>对象
-        /// </summary>
-        /// <param name="operatorImageCodename">干员名称</param>
-        /// <param name="cultureInfo"><see cref="Operator"/>对象的语言文化</param>
-        /// <returns>一个<see cref="Operator"/>对象</returns>
-        /// <exception cref="ArgumentException"/>
+        /// <inheritdoc/>
 #if NET7_0_OR_GREATER
-        public static async Task<Operator> GetOperatorWithImageCodenameAsync(string operatorImageCodename, CultureInfo cultureInfo)
+        public static async Task<Operator> GetOperatorWithImageCodenameAsync(string imageCodename, CultureInfo cultureInfo)
 #else
-        public override async Task<Operator> GetOperatorWithImageCodenameAsync(string operatorImageCodename, CultureInfo cultureInfo)
+        public override async Task<Operator> GetOperatorWithImageCodenameAsync(string imageCodename, CultureInfo cultureInfo)
 #endif
         {
-            if (string.IsNullOrWhiteSpace(operatorImageCodename))
+            if (string.IsNullOrWhiteSpace(imageCodename))
             {
-                throw new ArgumentException($"“{nameof(operatorImageCodename)}”不能为 null 或空白。", nameof(operatorImageCodename));
+                throw new ArgumentException($"“{nameof(imageCodename)}”不能为 null 或空白。", nameof(imageCodename));
             }
 
             try
             {
-                return await Task.Run(() => GetOperatorWithCodenameInternal(operatorImageCodename, cultureInfo));
+                return await Task.Run(() => GetOperatorWithCodenameInternal(imageCodename, cultureInfo));
             }
             catch (InvalidOperationException ex)
             {
-                throw new ArgumentException($"参数\"{operatorImageCodename}\"无效", ex);
+                throw new ArgumentException($"参数\"{imageCodename}\"无效", ex);
             }
         }
 
@@ -210,14 +218,46 @@ namespace ArknightsResources.Operators.Resources
             return await Task.Run(() => GetAllOperatorsInternal(cultureInfo));
         }
 
+        /// <summary>
+        /// 通过干员的立绘信息获取包含其立绘等的AssetBundle文件
+        /// </summary>
+        /// <param name="illustInfo">干员的立绘信息</param>
+        /// <returns>一个byte数组,其中包含了AssetBundle文件的数据</returns>
+        /// <exception cref="ArgumentException"/>
+#if NET7_0_OR_GREATER
+        public static byte[] GetAssetBundleFile(OperatorIllustrationInfo illustInfo)
+#else
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Performance", "CA1822:Mark members as static")]
+        public byte[] GetAssetBundleFile(OperatorIllustrationInfo illustInfo)
+#endif
+        {
+            string name;
+            string fileName = illustInfo.ImageCodename.Split('_')[0].Split('#')[0];
+            if (illustInfo.Type == OperatorType.Skin)
+            {
+                name = $"operator_image_skin_{fileName}";
+            }
+            else
+            {
+                name = $"operator_image_{fileName}";
+            }
+
+            byte[] value = (byte[])OperatorResources.ResourceManager.GetObject(name);
+            if (value is null)
+            {
+                throw new ArgumentException($@"使用给定的参数""{illustInfo}""时找不到资源");
+            }
+
+            return value;
+        }
+
         private static Operator GetOperatorInternal(string operatorName, CultureInfo cultureInfo)
         {
             byte[] opJson = (byte[])OperatorResources.ResourceManager.GetObject("operators", cultureInfo);
             Operator op = null;
             using (JsonDocument document = JsonDocument.Parse(opJson))
             {
-                JsonElement root = document.RootElement;
-                JsonElement operatorsElement = root.GetProperty("Operators");
+                JsonElement operatorsElement = document.RootElement.GetProperty("Operators");
                 foreach (JsonProperty item in operatorsElement.EnumerateObject())
                 {
                     bool enumComplete = false;
@@ -229,10 +269,7 @@ namespace ArknightsResources.Operators.Resources
                         {
                             WriteIndented = true,
                             Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
-                            Converters =
-                            {
-                                new JsonStringEnumConverter()
-                            }
+                            Converters = { new JsonStringEnumConverter() }
                         });
                         enumComplete = true;
                         break;
@@ -253,8 +290,7 @@ namespace ArknightsResources.Operators.Resources
             Operator op = null;
             using (JsonDocument document = JsonDocument.Parse(opJson))
             {
-                JsonElement root = document.RootElement;
-                JsonElement operatorsElement = root.GetProperty("Operators");
+                JsonElement operatorsElement = document.RootElement.GetProperty("Operators");
                 foreach (JsonProperty item in operatorsElement.EnumerateObject())
                 {
                     bool enumComplete = false;
@@ -266,10 +302,7 @@ namespace ArknightsResources.Operators.Resources
                         {
                             WriteIndented = true,
                             Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
-                            Converters =
-                            {
-                                new JsonStringEnumConverter()
-                            }
+                            Converters = { new JsonStringEnumConverter() }
                         });
                         enumComplete = true;
                         break;
@@ -291,10 +324,7 @@ namespace ArknightsResources.Operators.Resources
             {
                 WriteIndented = true,
                 Encoder = JavaScriptEncoder.Create(UnicodeRanges.All),
-                Converters =
-                            {
-                                new JsonStringEnumConverter()
-                            }
+                Converters = { new JsonStringEnumConverter() }
             });
             return operatorsList;
         }

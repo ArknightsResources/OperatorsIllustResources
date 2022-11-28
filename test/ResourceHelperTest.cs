@@ -1,6 +1,4 @@
-﻿using ArknightsResources.CustomResourceHelpers;
-using System.Globalization;
-using ArknightsResources.Operators.Models;
+﻿using System.Globalization;
 
 namespace ArknightsResources.Operators.Resources.Test
 {
@@ -11,8 +9,8 @@ namespace ArknightsResources.Operators.Resources.Test
         [Fact]
         public async void GetAllOperatorTest()
         {
-            var value = ResourceHelper.Instance.GetAllOperators(ChineseSimplifiedCultureInfo);
-            var valueAsync = await ResourceHelper.Instance.GetAllOperatorsAsync(ChineseSimplifiedCultureInfo);
+            OperatorsList value = ResourceHelper.Instance.GetAllOperators(ChineseSimplifiedCultureInfo);
+            OperatorsList valueAsync = await ResourceHelper.Instance.GetAllOperatorsAsync(ChineseSimplifiedCultureInfo);
             Assert.NotEmpty(value.Operators);
             Assert.NotEmpty(valueAsync.Operators);
         }
@@ -63,6 +61,20 @@ namespace ArknightsResources.Operators.Resources.Test
             Assert.NotEmpty(op.Profiles);
             Assert.NotEqual(0, op.Birthday!.Value.Month);
             Assert.NotEqual(0, op.Birthday.Value.Day);
+        }
+
+        [Fact]
+        public void GetAssetBundleFileTest()
+        {
+            byte[] ab = ResourceHelper.Instance.GetAssetBundleFile(new OperatorIllustrationInfo(string.Empty, string.Empty, "amiya", OperatorType.Elite0, string.Empty));
+            Assert.NotEmpty(ab);
+        }
+
+        [Fact]
+        public void GetOperatorImageMappingTest()
+        {
+            Dictionary<string, string> mapping = ResourceHelper.Instance.GetOperatorImageCodenameMapping(ChineseSimplifiedCultureInfo);
+            Assert.NotEmpty(mapping);
         }
     }
 }

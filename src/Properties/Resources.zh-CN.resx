@@ -121,7 +121,7 @@
   <data name="operators" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\texts\zh_cn\operators.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="operator_codename_mapping" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\texts\zh_cn\operator_codename_mapping.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="operator_image_codename_mapping" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\texts\zh_cn\operator_image_codename_mapping.json;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
