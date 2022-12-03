@@ -52,7 +52,7 @@
         {
           "IllustrationName": "播种者",
           "Description": "忒斯特收藏系列/播种者。宽松舒适的出游配搭，独家附赠小型登山包与一个育苗套装。设计师有一个小小的愿望，她希望大家能够帮忙实现。",
-          "ImageCodename": "amiya_sale",
+          "ImageCodename": "amiya_test",
           "Type": "Skin",
           "Illustrator": "唯@W"
         }
@@ -354,7 +354,7 @@
           "IllustrationName": "超级断罪朋友",
           "Description": "成就之星系列/超级断罪朋友。某复古游戏机豪华限定版赠送服饰，宽松舒适，经典配色，既能彰显玩家身份，也可用于日常出行。",
           "ImageCodename": "peacok_game",
-          "Type": "Elite2",
+          "Type": "Skin",
           "Illustrator": "TOMATO"
         }
       ],
