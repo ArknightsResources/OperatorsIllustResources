@@ -10,11 +10,71 @@
         "Day": 23
       },
       "Class": {
-        "MainClass": "Vanguard",
-        "BranchClass": "Pioneer"
+        "MainClass": "Caster",
+        "BranchClass": "CoreCaster"
       },
-      "Illustrations": null,
-      "Voices": null,
+      "Illustrations": [
+        {
+          "IllustrationName": "默认服装",
+          "Description": "阿米娅最常穿着的服装，过大的尺寸似乎暗示了这件衣服曾不属于她\r不少细节部分都经过手工改造，而时间的痕迹也多有残留。",
+          "ImageCodename": "amiya_1",
+          "Type": "Elite0",
+          "Illustrator": "唯@W"
+        },
+        {
+          "IllustrationName": "默认服装",
+          "Description": "阿米娅最常穿着的服装，过大的尺寸仿佛述说着这件衣服曾不属于她的事实。即便如此，她也仔细地打理着这件衣服，让它看起来就像新的一样。",
+          "ImageCodename": "amiya_1\u002B",
+          "Type": "Elite1",
+          "Illustrator": "唯@W"
+        },
+        {
+          "IllustrationName": "默认服装",
+          "Description": "衣服需要修补，\r伤痛需要弥合。",
+          "ImageCodename": "amiya_2",
+          "Type": "Elite2",
+          "Illustrator": "唯@W"
+        },
+        {
+          "IllustrationName": "报童",
+          "Description": "LIMITED EDITION\r忒斯特™收藏系列/报童。限定区域供应。经典款式复刻，采用绝佳材质，附加特别缝纫细节。附带特别设计的开信刀。",
+          "ImageCodename": "amiya_winter",
+          "Type": "Skin",
+          "Illustrator": "唯@W"
+        },
+        {
+          "IllustrationName": "见习联结者",
+          "Description": "忒斯特收藏系列/见习联结者。阿米娅在罗德岛餐厅打工时的穿着。蓬松外套很防寒，也能装进一只企鹅大小的东西。",
+          "ImageCodename": "amiya_epoque",
+          "Type": "Skin",
+          "Illustrator": "唯@W"
+        },
+        {
+          "IllustrationName": "播种者",
+          "Description": "忒斯特收藏系列/播种者。宽松舒适的出游配搭，独家附赠小型登山包与一个育苗套装。设计师有一个小小的愿望，她希望大家能够帮忙实现。",
+          "ImageCodename": "amiya_sale",
+          "Type": "Skin",
+          "Illustrator": "唯@W"
+        }
+      ],
+      "Voices": [
+        {
+          "Voice": "陶典",
+          "Type": "ChineseMandarin"
+        },
+        {
+          "Voice": "黑泽朋世",
+          "Type": "Japanese"
+        },
+        {
+          "Voice": "Emma Ballantine",
+          "Type": "English"
+        },
+        {
+          "Voice": "李智贤",
+          "Type": "Korean"
+        }
+      ],
       "Profiles": [
         {
           "Type": "BasicInfo",
@@ -44,11 +104,36 @@
         "Day": 23
       },
       "Class": {
-        "MainClass": "Vanguard",
-        "BranchClass": "Pioneer"
+        "MainClass": "Guard",
+        "BranchClass": "ArtsFighter"
       },
-      "Illustrations": null,
-      "Voices": null,
+      "Illustrations": [
+        {
+          "IllustrationName": "默认服装",
+          "Description": "黑色的粒子形成了她的臂铠，有学识的人会认出来这是某位古代君王的甲胄的一部分。",
+          "ImageCodename": "amiya2_2",
+          "Type": "Elite2",
+          "Illustrator": "唯@W"
+        }
+      ],
+      "Voices": [
+        {
+          "Voice": "陶典",
+          "Type": "ChineseMandarin"
+        },
+        {
+          "Voice": "黑泽朋世",
+          "Type": "Japanese"
+        },
+        {
+          "Voice": "Emma Ballantine",
+          "Type": "English"
+        },
+        {
+          "Voice": "李智贤",
+          "Type": "Korean"
+        }
+      ],
       "Profiles": [
         {
           "Type": "BasicInfo",
@@ -72,7 +157,7 @@
         },
         {
           "Type": "Unknown",
-          "Text": "？？？"
+          "Text": "？？？？？？"
         }
       ]
     },
@@ -86,11 +171,43 @@
         "Day": 7
       },
       "Class": {
-        "MainClass": "Vanguard",
-        "BranchClass": "Pioneer"
+        "MainClass": "Caster",
+        "BranchClass": "MechAccordCaster"
       },
-      "Illustrations": null,
-      "Voices": null,
+      "Illustrations": [
+        {
+          "IllustrationName": "默认服装",
+          "Description": "干员平时最常穿着的服装。\r虽然不一定比制服更实用，但是一定是干员最舒适的搭配之一。",
+          "ImageCodename": "gdglow_1",
+          "Type": "Elite0",
+          "Illustrator": "Namie"
+        },
+        {
+          "IllustrationName": "默认服装",
+          "Description": "晋升后，经过调整的服装。\r根据干员的经验，对服装细节进行改进，针对一些作战环境进行了特化处理。在满足战斗需求的同时，最大程度还原各位干员熟悉的舒适穿着体验。",
+          "ImageCodename": "gdglow_2",
+          "Type": "Elite2",
+          "Illustrator": "Namie"
+        }
+      ],
+      "Voices": [
+        {
+          "Voice": "白灯",
+          "Type": "ChineseMandarin"
+        },
+        {
+          "Voice": "佐仓绫音",
+          "Type": "Japanese"
+        },
+        {
+          "Voice": "Heather Nicol",
+          "Type": "English"
+        },
+        {
+          "Voice": "郑慧媛",
+          "Type": "Korean"
+        }
+      ],
       "Profiles": [
         {
           "Type": "BasicInfo",
@@ -140,11 +257,35 @@
         "Day": 8
       },
       "Class": {
-        "MainClass": "Vanguard",
-        "BranchClass": "Pioneer"
+        "MainClass": "Specialist",
+        "BranchClass": "Trapmaster"
       },
-      "Illustrations": null,
-      "Voices": null,
+      "Illustrations": [
+        {
+          "IllustrationName": "默认服装",
+          "Description": "干员平时最常穿着的服装。\r虽然不一定比制服更实用，但是一定是干员最舒适的搭配之一。",
+          "ImageCodename": "doroth_1",
+          "Type": "Elite0",
+          "Illustrator": "Jacknife"
+        },
+        {
+          "IllustrationName": "默认服装",
+          "Description": "晋升后，经过调整的服装。\r根据干员的经验，对服装细节进行改进，针对一些作战环境进行了特化处理。在满足战斗需求的同时，最大程度还原各位干员熟悉的舒适穿着体验。",
+          "ImageCodename": "doroth_2",
+          "Type": "Elite2",
+          "Illustrator": "Jacknife"
+        }
+      ],
+      "Voices": [
+        {
+          "Voice": "吱毛",
+          "Type": "ChineseMandarin"
+        },
+        {
+          "Voice": "佐藤聪美",
+          "Type": "Japanese"
+        }
+      ],
       "Profiles": [
         {
           "Type": "BasicInfo",
@@ -191,11 +332,42 @@
       "Gender": "Conviction",
       "Birthday": null,
       "Class": {
-        "MainClass": "Vanguard",
-        "BranchClass": "Pioneer"
+        "MainClass": "Guard",
+        "BranchClass": "Dreadnought"
       },
-      "Illustrations": null,
-      "Voices": null,
+      "Illustrations": [
+        {
+          "IllustrationName": "默认服装",
+          "Description": "干员平时最常穿着的服装。\r虽然不一定比制服更实用，但是一定是干员最舒适的搭配之一。",
+          "ImageCodename": "peacok_1",
+          "Type": "Elite0",
+          "Illustrator": "TOMATO"
+        },
+        {
+          "IllustrationName": "默认服装",
+          "Description": "晋升后，经过调整的服装。\r根据干员的经验，对服装细节进行改进，针对一些作战环境进行了特化处理。在满足战斗需求的同时，最大程度还原各位干员熟悉的舒适穿着体验。",
+          "ImageCodename": "peacok_2",
+          "Type": "Elite2",
+          "Illustrator": "TOMATO"
+        },
+        {
+          "IllustrationName": "超级断罪朋友",
+          "Description": "成就之星系列/超级断罪朋友。某复古游戏机豪华限定版赠送服饰，宽松舒适，经典配色，既能彰显玩家身份，也可用于日常出行。",
+          "ImageCodename": "peacok_game",
+          "Type": "Elite2",
+          "Illustrator": "TOMATO"
+        }
+      ],
+      "Voices": [
+        {
+          "Voice": "谢莹",
+          "Type": "ChineseMandarin"
+        },
+        {
+          "Voice": "山冈百合",
+          "Type": "Japanese"
+        }
+      ],
       "Profiles": [
         {
           "Type": "BasicInfo",
@@ -241,11 +413,39 @@
         "Day": 12
       },
       "Class": {
-        "MainClass": "Vanguard",
-        "BranchClass": "Pioneer"
+        "MainClass": "Medic",
+        "BranchClass": "Therapist"
       },
-      "Illustrations": null,
-      "Voices": null,
+      "Illustrations": [
+        {
+          "IllustrationName": "默认服装",
+          "Description": "干员平时最常穿着的服装。\r虽然不一定比制服更实用，但是一定是干员最舒适的搭配之一。",
+          "ImageCodename": "lumen_1",
+          "Type": "Elite0",
+          "Illustrator": "一千"
+        },
+        {
+          "IllustrationName": "默认服装",
+          "Description": "晋升后，经过调整的服装。\r根据干员的经验，对服装细节进行改进，针对一些作战环境进行了特化处理。在满足战斗需求的同时，最大程度还原各位干员熟悉的舒适穿着体验。",
+          "ImageCodename": "lumen_2",
+          "Type": "Elite2",
+          "Illustrator": "一千"
+        }
+      ],
+      "Voices": [
+        {
+          "Voice": "孙晔",
+          "Type": "ChineseMandarin"
+        },
+        {
+          "Voice": "小林裕介",
+          "Type": "Japanese"
+        },
+        {
+          "Voice": "Jay Rincon",
+          "Type": "English"
+        }
+      ],
       "Profiles": [
         {
           "Type": "BasicInfo",
@@ -295,11 +495,43 @@
         "Day": 10
       },
       "Class": {
-        "MainClass": "Vanguard",
-        "BranchClass": "Pioneer"
+        "MainClass": "Sniper",
+        "BranchClass": "Deadeye"
       },
-      "Illustrations": null,
-      "Voices": null,
+      "Illustrations": [
+        {
+          "IllustrationName": "默认服装",
+          "Description": "干员平时最常穿着的服装。\r虽然不一定比制服更实用，但是一定是干员最舒适的搭配之一。",
+          "ImageCodename": "fartth_1",
+          "Type": "Elite0",
+          "Illustrator": "NoriZC"
+        },
+        {
+          "IllustrationName": "默认服装",
+          "Description": "晋升后，经过调整的服装。\r根据干员的经验，对服装细节进行改进，针对一些作战环境进行了特化处理。在满足战斗需求的同时，最大程度还原各位干员熟悉的舒适穿着体验。",
+          "ImageCodename": "fartth_2",
+          "Type": "Elite2",
+          "Illustrator": "NoriZC"
+        }
+      ],
+      "Voices": [
+        {
+          "Voice": "刘雯",
+          "Type": "ChineseMandarin"
+        },
+        {
+          "Voice": "三森铃子",
+          "Type": "Japanese"
+        },
+        {
+          "Voice": "Samantha Dakin",
+          "Type": "English"
+        },
+        {
+          "Voice": "吕润美",
+          "Type": "Korean"
+        }
+      ],
       "Profiles": [
         {
           "Type": "BasicInfo",
