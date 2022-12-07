@@ -4123,6 +4123,2746 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_spine_12fce {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_12fce", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_absin {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_absin", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_acast {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_acast", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_acdrop {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_acdrop", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_adnach {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_adnach", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_aglina {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_aglina", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_aguard {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_aguard", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_akafyu {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_akafyu", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_amedic {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_amedic", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_amgoat {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_amgoat", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_amiya {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_amiya", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_amiya2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_amiya2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_angel {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_angel", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ansel {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ansel", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_aosta {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_aosta", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_apionr {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_apionr", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_aprl {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_aprl", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_aprot {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_aprot", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_aprot2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_aprot2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_archet {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_archet", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ardign {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ardign", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_asbest {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_asbest", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ash {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ash", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ashlok {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ashlok", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_asnipe {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_asnipe", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_astesi {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_astesi", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_aurora {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_aurora", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ayer {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ayer", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_beagle {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_beagle", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_beewax {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_beewax", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_bena {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_bena", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_bgsnow {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_bgsnow", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_bibeak {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_bibeak", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_billro {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_billro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_bison {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_bison", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_blackd {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_blackd", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_bldsk {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_bldsk", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_blemsh {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_blemsh", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_blitz {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_blitz", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_blkngt {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_blkngt", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_bluep {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_bluep", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_bpipe {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_bpipe", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_breeze {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_breeze", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_broca {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_broca", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_brownb {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_brownb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_bstalk {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_bstalk", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_bubble {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_bubble", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_cammou {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_cammou", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_cast3 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_cast3", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_catap {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_catap", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ccheal {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ccheal", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_cerber {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_cerber", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ceylon {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ceylon", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_cgbird {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_cgbird", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_chen {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_chen", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_chen2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_chen2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_chiave {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_chiave", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_chnut {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_chnut", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_clour {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_clour", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_cqbw {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_cqbw", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_crow {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_crow", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ctable {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ctable", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_cutter {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_cutter", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_cuttle {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_cuttle", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_dagda {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_dagda", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_deepcl {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_deepcl", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_demkni {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_demkni", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_doberm {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_doberm", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_doroth {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_doroth", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_durin {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_durin", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_durnar {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_durnar", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_dusk {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_dusk", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ebnhlz {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ebnhlz", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_elysm {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_elysm", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_erato {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_erato", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_estell {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_estell", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ethan {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ethan", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_excu {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_excu", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_f12yin {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_f12yin", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_falco {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_falco", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_fang {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_fang", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_fartth {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_fartth", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_finlpp {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_finlpp", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_flameb {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_flameb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_flamtl {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_flamtl", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_flint {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_flint", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_flower {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_flower", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_fmout {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_fmout", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_folivo {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_folivo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_folnic {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_folnic", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_forcer {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_forcer", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_franka {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_franka", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_frncat {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_frncat", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_frostl {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_frostl", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_gdglow {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_gdglow", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ghost {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ghost", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ghost2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ghost2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_glacus {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_glacus", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_glady {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_glady", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_glassb {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_glassb", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_glaze {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_glaze", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_glider {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_glider", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_gnosis {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_gnosis", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_grani {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_grani", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_gravel {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_gravel", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_greyy {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_greyy", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_greyy2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_greyy2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_gvial2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_gvial2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_gyuki {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_gyuki", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_haak {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_haak", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_halo {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_halo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_hbisc2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_hbisc2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_headbr {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_headbr", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_heidi {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_heidi", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_helage {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_helage", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_hibisc {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_hibisc", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_highmo {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_highmo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_hmau {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_hmau", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_horn {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_horn", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_hpsts {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_hpsts", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_hsguma {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_hsguma", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_huang {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_huang", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ifrit {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ifrit", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_indigo {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_indigo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_irene {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_irene", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_iris {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_iris", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ironmn {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ironmn", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_jaksel {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_jaksel", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_jesica {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_jesica", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_jnight {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_jnight", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_judge {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_judge", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_kafka {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_kafka", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_kalts {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_kalts", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_kazema {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_kazema", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_kirara {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_kirara", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_kjera {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_kjera", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_knit3 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_knit3", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_kroos {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_kroos", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_kroos2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_kroos2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_lava {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_lava", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_lava2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_lava2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_leizi {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_leizi", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ling {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ling", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_lionhd {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_lionhd", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_lisa {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_lisa", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_liskam {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_liskam", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_lmlee {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_lmlee", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_lolxh {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_lolxh", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_lumen {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_lumen", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_lunacu {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_lunacu", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_malist {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_malist", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_mantic {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_mantic", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_mberry {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_mberry", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_medic2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_medic2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_melan {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_melan", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_meteo {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_meteo", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_mgllan {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_mgllan", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_midn {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_midn", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_milu {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_milu", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_mint {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_mint", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_mizuki {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_mizuki", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_mlynar {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_mlynar", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_mm {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_mm", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_moeshd {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_moeshd", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_mostma {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_mostma", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_mudrok {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_mudrok", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_myrrh {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_myrrh", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_myrtle {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_myrtle", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_nblade {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_nblade", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_ncdeer {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_ncdeer", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_nearl {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_nearl", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_nearl2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_nearl2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_nian {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_nian", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_nightm {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_nightm", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_nights {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_nights", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_noirc {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_noirc", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_nothin {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_nothin", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_orchid {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_orchid", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_otter {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_otter", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_owl {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_owl", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_pallas {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_pallas", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_panda {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_panda", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_pasngr {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_pasngr", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_peacok {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_peacok", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_peper {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_peper", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_phatom {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_phatom", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_phenxi {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_phenxi", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_pianst {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_pianst", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_pinecn {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_pinecn", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_platnm {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_platnm", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_plosis {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_plosis", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_poca {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_poca", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_podego {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_podego", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_popka {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_popka", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_prove {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_prove", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_provs {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_provs", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_pudd {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_pudd", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_qanik {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_qanik", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_quartz {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_quartz", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_quercu {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_quercu", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_rang {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_rang", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_rcast {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_rcast", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_rdfend {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_rdfend", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_red {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_red", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_rfrost {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_rfrost", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_rguard {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_rguard", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_rmedic {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_rmedic", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_robin {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_robin", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_robrta {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_robrta", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_rockr {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_rockr", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_rope {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_rope", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_rosmon {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_rosmon", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_rsnipe {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_rsnipe", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_saga {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_saga", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_savage {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_savage", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_scave {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_scave", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_sddrag {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_sddrag", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_serum {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_serum", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_sesa {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_sesa", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_shining {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_shining", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_shotst {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_shotst", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_shwaz {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_shwaz", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_sidero {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_sidero", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_siege {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_siege", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_silent {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_silent", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_skadi {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_skadi", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_skadi2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_skadi2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_skfire {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_skfire", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_skgoat {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_skgoat", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_slbell {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_slbell", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_slchan {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_slchan", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_sleach {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_sleach", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_snakek {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_snakek", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_snsant {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_snsant", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_sophia {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_sophia", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_sora {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_sora", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_spikes {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_spikes", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_spot {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_spot", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_sqrrel {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_sqrrel", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_strong {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_strong", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_stward {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_stward", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_sunbr {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_sunbr", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_surtr {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_surtr", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_susuro {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_susuro", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_svrash {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_svrash", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_swire {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_swire", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_swllow {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_swllow", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_tachak {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_tachak", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_takila {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_takila", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_texas {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_texas", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_texas2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_texas2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_therex {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_therex", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_thorns {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_thorns", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_tiger {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_tiger", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_tknogi {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_tknogi", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_toddi {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_toddi", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_tomimi {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_tomimi", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_totter {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_totter", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_tuye {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_tuye", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_utage {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_utage", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_vigil {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_vigil", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_vigna {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_vigna", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_vodfox {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_vodfox", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_waaifu {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_waaifu", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_weedy {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_weedy", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_whispr {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_whispr", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_whitew {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_whitew", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_wildmn {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_wildmn", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_windft {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_windft", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_wyvern {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_wyvern", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_yak {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_yak", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_yuki {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_yuki", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_zebra {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_zebra", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_spine_zumama {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_spine_zumama", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_spot {
             get {
                 object obj = ResourceManager.GetObject("operator_image_spot", resourceCulture);

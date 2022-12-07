@@ -1336,6 +1336,828 @@
   <data name="operator_image_spikes" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_spikes.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="operator_image_spine_12fce" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_12fce.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_absin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_absin.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_acast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_acast.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_acdrop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_acdrop.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_adnach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_adnach.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_aglina" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_aglina.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_aguard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_aguard.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_akafyu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_akafyu.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_amedic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_amedic.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_amgoat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_amgoat.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_amiya" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_amiya.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_amiya2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_amiya2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_angel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_angel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ansel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ansel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_aosta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_aosta.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_apionr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_apionr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_aprl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_aprl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_aprot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_aprot.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_aprot2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_aprot2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_archet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_archet.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ardign" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ardign.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_asbest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_asbest.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ash.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ashlok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ashlok.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_asnipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_asnipe.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_astesi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_astesi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_aurora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_aurora.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ayer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ayer.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_beagle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_beagle.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_beewax" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_beewax.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_bena" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_bena.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_bgsnow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_bgsnow.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_bibeak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_bibeak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_billro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_billro.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_bison" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_bison.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_blackd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_blackd.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_bldsk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_bldsk.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_blemsh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_blemsh.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_blitz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_blitz.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_blkngt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_blkngt.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_bluep" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_bluep.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_bpipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_bpipe.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_breeze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_breeze.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_broca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_broca.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_brownb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_brownb.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_bstalk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_bstalk.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_bubble" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_bubble.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_cammou" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_cammou.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_cast3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_cast3.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_catap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_catap.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ccheal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ccheal.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_cerber" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_cerber.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ceylon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ceylon.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_cgbird" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_cgbird.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_chen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_chen.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_chen2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_chen2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_chiave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_chiave.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_chnut" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_chnut.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_clour" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_clour.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_cqbw" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_cqbw.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_crow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_crow.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ctable" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ctable.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_cutter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_cutter.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_cuttle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_cuttle.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_dagda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_dagda.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_deepcl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_deepcl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_demkni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_demkni.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_doberm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_doberm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_doroth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_doroth.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_durin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_durin.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_durnar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_durnar.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_dusk" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_dusk.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ebnhlz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ebnhlz.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_elysm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_elysm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_erato" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_erato.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_estell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_estell.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ethan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ethan.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_excu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_excu.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_f12yin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_f12yin.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_falco" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_falco.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_fang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_fang.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_fartth" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_fartth.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_finlpp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_finlpp.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_flameb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_flameb.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_flamtl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_flamtl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_flint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_flint.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_flower" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_flower.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_fmout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_fmout.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_folivo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_folivo.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_folnic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_folnic.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_forcer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_forcer.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_franka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_franka.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_frncat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_frncat.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_frostl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_frostl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_gdglow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_gdglow.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ghost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ghost.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ghost2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ghost2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_glacus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_glacus.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_glady" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_glady.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_glassb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_glassb.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_glaze" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_glaze.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_glider" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_glider.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_gnosis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_gnosis.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_grani" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_grani.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_gravel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_gravel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_greyy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_greyy.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_greyy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_greyy2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_gvial2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_gvial2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_gyuki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_gyuki.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_haak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_haak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_halo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_halo.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_hbisc2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_hbisc2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_headbr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_headbr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_heidi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_heidi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_helage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_helage.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_hibisc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_hibisc.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_highmo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_highmo.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_hmau" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_hmau.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_horn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_horn.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_hpsts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_hpsts.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_hsguma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_hsguma.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_huang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_huang.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ifrit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ifrit.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_indigo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_indigo.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_irene" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_irene.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_iris" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_iris.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ironmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ironmn.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_jaksel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_jaksel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_jesica" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_jesica.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_jnight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_jnight.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_judge" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_judge.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_kafka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_kafka.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_kalts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_kalts.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_kazema" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_kazema.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_kirara" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_kirara.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_kjera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_kjera.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_knit3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_knit3.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_kroos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_kroos.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_kroos2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_kroos2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_lava" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_lava.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_lava2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_lava2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_leizi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_leizi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ling" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ling.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_lionhd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_lionhd.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_lisa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_lisa.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_liskam" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_liskam.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_lmlee" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_lmlee.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_lolxh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_lolxh.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_lumen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_lumen.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_lunacu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_lunacu.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_malist" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_malist.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_mantic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_mantic.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_mberry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_mberry.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_medic2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_medic2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_melan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_melan.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_meteo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_meteo.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_mgllan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_mgllan.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_midn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_midn.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_milu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_milu.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_mint" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_mint.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_mizuki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_mizuki.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_mlynar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_mlynar.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_mm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_mm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_moeshd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_moeshd.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_mostma" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_mostma.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_mudrok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_mudrok.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_myrrh" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_myrrh.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_myrtle" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_myrtle.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_nblade" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_nblade.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_ncdeer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_ncdeer.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_nearl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_nearl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_nearl2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_nearl2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_nian" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_nian.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_nightm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_nightm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_nights" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_nights.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_noirc" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_noirc.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_nothin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_nothin.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_orchid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_orchid.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_otter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_otter.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_owl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_owl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_pallas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_pallas.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_panda" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_panda.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_pasngr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_pasngr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_peacok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_peacok.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_peper" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_peper.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_phatom" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_phatom.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_phenxi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_phenxi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_pianst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_pianst.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_pinecn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_pinecn.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_platnm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_platnm.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_plosis" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_plosis.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_poca" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_poca.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_podego" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_podego.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_popka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_popka.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_prove" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_prove.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_provs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_provs.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_pudd" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_pudd.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_qanik" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_qanik.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_quartz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_quartz.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_quercu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_quercu.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_rang" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_rang.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_rcast" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_rcast.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_rdfend" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_rdfend.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_red.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_rfrost" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_rfrost.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_rguard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_rguard.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_rmedic" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_rmedic.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_robin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_robin.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_robrta" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_robrta.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_rockr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_rockr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_rope" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_rope.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_rosmon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_rosmon.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_rsnipe" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_rsnipe.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_saga" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_saga.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_savage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_savage.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_scave" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_scave.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_sddrag" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_sddrag.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_serum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_serum.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_sesa" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_sesa.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_shining" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_shining.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_shotst" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_shotst.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_shwaz" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_shwaz.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_sidero" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_sidero.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_siege" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_siege.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_silent" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_silent.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_skadi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_skadi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_skadi2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_skadi2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_skfire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_skfire.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_skgoat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_skgoat.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_slbell" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_slbell.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_slchan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_slchan.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_sleach" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_sleach.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_snakek" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_snakek.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_snsant" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_snsant.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_sophia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_sophia.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_sora" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_sora.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_spikes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_spikes.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_spot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_spot.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_sqrrel" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_sqrrel.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_strong" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_strong.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_stward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_stward.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_sunbr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_sunbr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_surtr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_surtr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_susuro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_susuro.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_svrash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_svrash.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_swire" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_swire.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_swllow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_swllow.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_tachak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_tachak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_takila" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_takila.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_texas" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_texas.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_texas2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_texas2.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_therex" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_therex.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_thorns" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_thorns.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_tiger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_tiger.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_tknogi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_tknogi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_toddi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_toddi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_tomimi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_tomimi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_totter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_totter.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_tuye" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_tuye.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_utage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_utage.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_vigil" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_vigil.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_vigna" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_vigna.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_vodfox" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_vodfox.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_waaifu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_waaifu.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_weedy" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_weedy.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_whispr" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_whispr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_whitew" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_whitew.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_wildmn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_wildmn.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_windft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_windft.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_wyvern" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_wyvern.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_yak" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_yak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_yuki" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_yuki.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_zebra" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_zebra.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_spine_zumama" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\spinecharpack\operator_image_spine_zumama.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="operator_image_spot" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_spot.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
