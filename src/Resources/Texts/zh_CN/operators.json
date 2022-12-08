@@ -3,7 +3,7 @@
     "amiya": {
       "Name": "阿米娅",
       "Star": 5,
-      "ImageCodename": "amiya",
+      "Codename": "amiya",
       "Gender": "Female",
       "Birthday": {
         "Month": 12,
@@ -97,7 +97,7 @@
     "amiya2": {
       "Name": "阿米娅(近卫)",
       "Star": 5,
-      "ImageCodename": "amiya2",
+      "Codename": "amiya2",
       "Gender": "Female",
       "Birthday": {
         "Month": 12,
@@ -164,7 +164,7 @@
     "gdglow": {
       "Name": "澄闪",
       "Star": 6,
-      "ImageCodename": "gdglow",
+      "Codename": "gdglow",
       "Gender": "Female",
       "Birthday": {
         "Month": 1,
@@ -250,7 +250,7 @@
     "doroth": {
       "Name": "多萝西",
       "Star": 6,
-      "ImageCodename": "doroth",
+      "Codename": "doroth",
       "Gender": "Female",
       "Birthday": {
         "Month": 5,
@@ -328,7 +328,7 @@
     "peacok": {
       "Name": "断罪者",
       "Star": 4,
-      "ImageCodename": "peacok",
+      "Codename": "peacok",
       "Gender": "Conviction",
       "Birthday": null,
       "Class": {
@@ -406,7 +406,7 @@
     "lumen": {
       "Name": "流明",
       "Star": 6,
-      "ImageCodename": "lumen",
+      "Codename": "lumen",
       "Gender": "Male",
       "Birthday": {
         "Month": 6,
@@ -488,7 +488,7 @@
     "fartth": {
       "Name": "远牙",
       "Star": 6,
-      "ImageCodename": "fartth",
+      "Codename": "fartth",
       "Gender": "Female",
       "Birthday": {
         "Month": 10,
