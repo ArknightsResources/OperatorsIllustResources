@@ -1,3 +1,4 @@
+acdrop_whirlwind
 adnach_sale
 akafyu_epoque
 aglina_boc
@@ -51,6 +52,7 @@ doberm_epoque
 dusk_nian
 elysm_snow
 elysm_summer
+erato_snow
 ethan_epoque
 excu_boc
 f12yin_boc
@@ -64,6 +66,7 @@ flower_epoque
 fmout_epoque
 folnic_wild
 frostl_boc
+gdglow_snow
 ghost_winter
 glacus_ghost
 glady_boc
@@ -73,6 +76,7 @@ gnosis_boc
 grani_epoque
 gravel_winter
 greyy_epoque
+greyy2_snow
 haak_nian#4
 haak_nian#5
 headbr_it
@@ -93,6 +97,7 @@ jesica_wild
 kafka_snow
 kazema_witch
 kirara_game
+kjera_epoque
 kroos_witch
 lava2_nian
 lionhd_wild
@@ -111,6 +116,7 @@ mgllan_kitchen
 midn_boc
 milu_snow
 milu_wild
+mizuki_sale
 moeshd_kfc
 moeshd_summer
 mostma_epoque
