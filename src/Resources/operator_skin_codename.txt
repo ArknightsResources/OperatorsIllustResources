@@ -99,6 +99,7 @@ kazema_witch
 kirara_game
 kjera_epoque
 kroos_witch
+kroos2_nian
 lava2_nian
 lionhd_wild
 lionhd_snow
@@ -144,6 +145,7 @@ poca_epoque
 podego_epoque
 prove_summer
 prove_wild
+pudd_snow
 quercu_epoque
 red_summer
 robin_epoque

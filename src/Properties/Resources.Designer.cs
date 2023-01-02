@@ -3203,6 +3203,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_skin_kroos2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_kroos2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_skin_lava2 {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_lava2", resourceCulture);
@@ -3556,6 +3566,16 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static byte[] operator_image_skin_prove {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_prove", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_skin_pudd {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_pudd", resourceCulture);
                 return ((byte[])(obj));
             }
         }
