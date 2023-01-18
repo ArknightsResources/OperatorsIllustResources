@@ -46,6 +46,7 @@ cgbird_witch
 chen_nian
 cqbw_epoque
 crow_summer
+ctable_nian
 cuttle_epoque
 demkni_boc
 demkni_test
@@ -102,6 +103,7 @@ kjera_epoque
 kroos_witch
 kroos2_nian
 lava2_nian
+ling_nian
 lionhd_wild
 lionhd_snow
 lisa_wild
@@ -111,6 +113,7 @@ liskam_striker
 lmlee_witch
 mantic_epoque
 mberry_epoque
+mberry_nian
 medic2_boc
 melan_epoque
 meteo_sweep
