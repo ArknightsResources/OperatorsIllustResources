@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ArknightsResources.Operators.Resources.Properties {
+namespace ArknightsResources.Operators.IllustResources.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace ArknightsResources.Operators.Resources.Properties {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ArknightsResources.Operators.Resources.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ArknightsResources.Operators.IllustResources.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
