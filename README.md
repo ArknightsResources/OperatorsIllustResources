@@ -1,9 +1,10 @@
-# ArknightsResources - Operators Resources
+# ArknightsResources - Operators Illust Resources
 
-本库仅包含干员相关资源。
+本库包含干员立绘与Spine小人相关资源。
 
 ## 目标框架
 仅.NET Standard 2.0。
+
 ## 构建
 .NET CLI 与 Visual Studio 2022皆可，最好使用Visual Studio。
 
