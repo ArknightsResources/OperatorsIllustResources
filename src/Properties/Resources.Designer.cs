@@ -4669,51 +4669,5 @@ namespace ArknightsResources.Operators.IllustResources.Properties {
                 return ((byte[])(obj));
             }
         }
-        
-        /// <summary>
-        ///   查找类似 acdrop_whirlwind
-        ///adnach_sale
-        ///akafyu_epoque
-        ///aglina_boc
-        ///aglina_summer
-        ///amiya_epoque
-        ///amiya_test
-        ///amiya_winter
-        ///amgoat_summer
-        ///angel_kfc
-        ///angel_wild
-        ///ansel_summer
-        ///aosta_game
-        ///aprl_wild
-        ///archet_shining
-        ///ardign_snow
-        ///asbest_whirlwind
-        ///ash_rainbow6
-        ///astesi_epoque
-        ///astesi_shining
-        ///aurora_boc
-        ///ayer_boc
-        ///beagle_boc
-        ///beewax_epoque
-        ///bibeak_winter
-        ///billro_snow
-        ///billro_summer
-        ///blackd_as
-        ///blackd_winter
-        ///blemsh_witch
-        ///bldsk_witch
-        ///bldsk_summer
-        ///blkngt_summer
-        ///blkngt_nian
-        ///bluep_marthe
-        ///bpipe_race
-        ///broca_marthe
-        ///brown [字符串的其余部分被截断]&quot;; 的本地化字符串。
-        /// </summary>
-        public static string operator_skin_codename {
-            get {
-                return ResourceManager.GetString("operator_skin_codename", resourceCulture);
-            }
-        }
     }
 }

@@ -1501,7 +1501,4 @@
   <data name="operator_image_zumama" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_zumama.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="operator_skin_codename" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\operator_skin_codename.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;gb2312</value>
-  </data>
 </root>
