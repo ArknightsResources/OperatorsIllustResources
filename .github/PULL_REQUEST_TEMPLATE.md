@@ -32,7 +32,6 @@
 请检查你的 PR 是否满足以下要求：
 
 - [ ] 新添加文件的信息是否已同步添加到相应的 resx 文件中
-- [ ] 新添加干员的代号或者新添加皮肤的立绘代号是否已添加到operator_image_codename_mapping.json或operator_skin_codename.txt中
 
 ## 备注
 
