@@ -292,6 +292,9 @@
   <data name="operator_image_chiave" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_chiave.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="operator_image_chimes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_chimes.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="operator_image_chnut" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_chnut.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -730,6 +733,9 @@
   <data name="operator_image_qanik" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_qanik.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="operator_image_qiubai" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_qiubai.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="operator_image_quartz" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_quartz.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -883,6 +889,9 @@
   <data name="operator_image_skin_beewax" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_beewax.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="operator_image_skin_bgsnow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_bgsnow.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="operator_image_skin_bibeak" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_bibeak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -946,6 +955,9 @@
   <data name="operator_image_skin_cuttle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_cuttle.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="operator_image_skin_deepcl" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_deepcl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="operator_image_skin_demkni" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_demkni.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -990,6 +1002,9 @@
   </data>
   <data name="operator_image_skin_folnic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_folnic.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_frncat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_frncat.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="operator_image_skin_frostl" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_frostl.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1191,6 +1206,9 @@
   </data>
   <data name="operator_image_skin_prove" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_prove.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_provs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_provs.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="operator_image_skin_pudd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_pudd.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
