@@ -274,6 +274,9 @@
   <data name="operator_image_ccheal" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_ccheal.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="operator_image_cement" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_cement.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="operator_image_cerber" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_cerber.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
@@ -499,11 +502,17 @@
   <data name="operator_image_huang" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_huang.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="operator_image_humus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_humus.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="operator_image_ifrit" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_ifrit.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="operator_image_indigo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_indigo.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_ines" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_ines.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="operator_image_irene" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_irene.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -627,6 +636,9 @@
   </data>
   <data name="operator_image_moeshd" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_moeshd.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_morgan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_morgan.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="operator_image_mostma" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_mostma.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1057,8 +1069,14 @@
   <data name="operator_image_skin_haak" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_haak.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="operator_image_skin_hamoni" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_hamoni.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="operator_image_skin_headbr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_headbr.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_heidi" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_heidi.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="operator_image_skin_helage" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_helage.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
@@ -1068,6 +1086,9 @@
   </data>
   <data name="operator_image_skin_hmau" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_hmau.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="operator_image_skin_horn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\resources\images\operator_image_skin_horn.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="operator_image_skin_hsguma" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\images\operator_image_skin_hsguma.ab;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
