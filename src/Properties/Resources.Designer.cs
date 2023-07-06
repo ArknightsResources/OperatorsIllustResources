@@ -3283,6 +3283,16 @@ namespace ArknightsResources.Operators.IllustResources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_skin_glaze {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_glaze", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_skin_glider {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_glider", resourceCulture);
@@ -3476,6 +3486,16 @@ namespace ArknightsResources.Operators.IllustResources.Properties {
         public static byte[] operator_image_skin_iris {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_iris", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_skin_ironmn {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_ironmn", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -4683,6 +4703,16 @@ namespace ArknightsResources.Operators.IllustResources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_sntlla {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_sntlla", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_sophia {
             get {
                 object obj = ResourceManager.GetObject("operator_image_sophia", resourceCulture);
@@ -4936,6 +4966,16 @@ namespace ArknightsResources.Operators.IllustResources.Properties {
         public static byte[] operator_image_tuye {
             get {
                 object obj = ResourceManager.GetObject("operator_image_tuye", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_typhon {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_typhon", resourceCulture);
                 return ((byte[])(obj));
             }
         }
