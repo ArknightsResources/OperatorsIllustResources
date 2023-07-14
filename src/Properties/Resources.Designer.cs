@@ -4913,6 +4913,16 @@ namespace ArknightsResources.Operators.IllustResources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_threye {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_threye", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_tiger {
             get {
                 object obj = ResourceManager.GetObject("operator_image_tiger", resourceCulture);
