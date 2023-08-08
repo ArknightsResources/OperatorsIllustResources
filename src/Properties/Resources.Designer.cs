@@ -123,6 +123,16 @@ namespace ArknightsResources.Operators.IllustResources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_agoat2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_agoat2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_aguard {
             get {
                 object obj = ResourceManager.GetObject("operator_image_aguard", resourceCulture);
@@ -523,6 +533,16 @@ namespace ArknightsResources.Operators.IllustResources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_bryota {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_bryota", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_bstalk {
             get {
                 object obj = ResourceManager.GetObject("operator_image_bstalk", resourceCulture);
@@ -536,6 +556,16 @@ namespace ArknightsResources.Operators.IllustResources.Properties {
         public static byte[] operator_image_bubble {
             get {
                 object obj = ResourceManager.GetObject("operator_image_bubble", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_buildr {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_buildr", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -2963,6 +2993,16 @@ namespace ArknightsResources.Operators.IllustResources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_skin_chnut {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_chnut", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_skin_cqbw {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_cqbw", resourceCulture);
@@ -3353,9 +3393,29 @@ namespace ArknightsResources.Operators.IllustResources.Properties {
         /// <summary>
         ///   查找 System.Byte[] 类型的本地化资源。
         /// </summary>
+        public static byte[] operator_image_skin_gvial2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_gvial2", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
         public static byte[] operator_image_skin_haak {
             get {
                 object obj = ResourceManager.GetObject("operator_image_skin_haak", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_skin_halo {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_skin_halo", resourceCulture);
                 return ((byte[])(obj));
             }
         }
@@ -4836,6 +4896,16 @@ namespace ArknightsResources.Operators.IllustResources.Properties {
         public static byte[] operator_image_swire {
             get {
                 object obj = ResourceManager.GetObject("operator_image_swire", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Byte[] 类型的本地化资源。
+        /// </summary>
+        public static byte[] operator_image_swire2 {
+            get {
+                object obj = ResourceManager.GetObject("operator_image_swire2", resourceCulture);
                 return ((byte[])(obj));
             }
         }

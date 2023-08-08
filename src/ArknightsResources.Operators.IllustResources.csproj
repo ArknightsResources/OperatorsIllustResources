@@ -14,7 +14,7 @@
     <PackageIcon>icon.png</PackageIcon>
     <Description>Provides illustration resources about Arknights Operators</Description>
     <IsTrimmable>true</IsTrimmable>
-    <Version>0.3.8.0-alpha</Version>
+    <Version>0.3.9.0-alpha</Version>
     <IncludeSymbols>True</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <DebugType>portable</DebugType>
